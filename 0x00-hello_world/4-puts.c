@@ -1,4 +1,7 @@
-/* put.c */#include<stdio.h>
+/* 
+*put.c 
+*/
+#include<stdio.h>
 int main(void)
 {
 char put[] = "Programming is like building a multilingual puzzle\n";
