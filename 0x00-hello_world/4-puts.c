@@ -1,5 +1,5 @@
 /**
-*Main entry point
+*Description: Main entry point
 *Description: print "Programming is like building a multilingual puzzle
 *Return: 0
 */
@@ -9,10 +9,10 @@ int main(void)
 char put[] = "Programming is like building a multilingual puzzle\n";
 puts(put);
 /**
-*This is where the pronting happens
+*Description: This is where the printing happens
 */
 return (0);
 /**
-*This returns 0
+*Description: This returns 0
 */
 }
