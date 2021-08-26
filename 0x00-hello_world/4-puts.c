@@ -1,6 +1,10 @@
 #include<stdio.h>
-main()
+int main()
 {
-    puts("Programming is like building a multilingual puzzle);    
+    //string initialisation
+    char put[]= "Programming is like building a multilingual puzzle\n";
+     
+    puts(put);
+     
     return 0;
 }
