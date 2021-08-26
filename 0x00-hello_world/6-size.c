@@ -4,19 +4,22 @@
  * Return: 0
  */
 #include<stdio.h>
-int main() /*main prints text*/
+int main(void) /*main prints text*/
 {
-    int intType;
-    float floatType;
-    double doubleType;
-    char charType;
+char charType;
+int intType;
+long int longintType;
+long long int longlongintType
+float floatType;
+    
+/* sizeof evaluates the size of a variable */
+printf("Size of a char: %zu byte\n", sizeof(charType));  
+printf("Size of an int: %zu bytes\n", sizeof(intType));
+printf("Size of a long int: %zu bytes\n", sizeof(longintType));
+printf("Size of a long long int: %zu bytes\n", sizeof(longlongintType));
+printf("Size of float: %zu bytes\n", sizeof(floatType));
 
- /* sizeof evaluates the size of a variable */
-    printf("Size of int: %zu bytes\n", sizeof(intType));
-    printf("Size of float: %zu bytes\n", sizeof(floatType));
-    printf("Size of double: %zu bytes\n", sizeof(doubleType));
-    printf("Size of char: %zu byte\n", sizeof(charType));
 /* Description: This is where the printing happens */
-    return 0;
+return 0;
 /* Description: This returns 0 */
 }
