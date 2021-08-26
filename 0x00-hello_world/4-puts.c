@@ -1,4 +1,4 @@
-/*
+/**
 *This the first c program
 */
 #include<stdio.h>
