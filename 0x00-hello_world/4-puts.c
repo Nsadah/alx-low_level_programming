@@ -7,7 +7,7 @@
  * Return: Description of the returned value
  */
 #include<stdio.h>
-int put(void)
+int main(void)
 {
 char put[] = "Programming is like building a multilingual puzzle\n";
 puts(put);
