@@ -1,6 +1,6 @@
 /**
 *This program prints a text
-*main prints text
+*main: print "Programming is like building a multilingual puzzle
 *Return: 0
 */
 #include<stdio.h>
