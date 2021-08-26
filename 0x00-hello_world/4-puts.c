@@ -3,9 +3,12 @@
 */
 
 #include<stdio.h>
-int main(void)
+int main()
 {
-char put[] = "Programming is like building a multilingual puzzle\n";
-puts(put);
-return (0);
+    //string initialisation
+    char put[]= "Programming is like building a multilingual puzzle\n";
+     
+    puts(put);
+     
+    return 0;
 }
