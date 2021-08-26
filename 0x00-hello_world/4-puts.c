@@ -1,14 +1,13 @@
 /**
- * put - Print a text
- *
- * Description: This is a long description.
- * Don't forget that a line should not exceed 80 characters.
- * But you're totally free to use several lines to properly
- * describe your function
- * Return: 0
+ * function_name - Short description, single line
+ * @parameterx: Description of parameter x
+(* a blank line
+ * Description: Longer description of the function)?
+(* section header: Section description)*
+ * Return: Description of the returned value
  */
 #include<stdio.h>
-int main(void)
+int put(void)
 {
 char put[] = "Programming is like building a multilingual puzzle\n";
 puts(put);
