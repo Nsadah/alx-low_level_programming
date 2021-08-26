@@ -1,6 +1,7 @@
 /**
-*THis program prints a text
-*Description: Description of program
+*This program prints a text
+*int main - Short of description
+*Return: 0
 */
 #include<stdio.h>
 int main(void)
