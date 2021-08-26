@@ -1,5 +1,6 @@
 /**
-* main-Entry point
+* main - Entry
+*
 * Return:1
 */
 #include<stdio.h>
