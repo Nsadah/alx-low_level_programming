@@ -8,11 +8,7 @@ int main(void)
 {
 char put[] = "Programming is like building a multilingual puzzle\n";
 puts(put);
-/**
-*Description: This is where the printing happens
-*/
+/* Description: This is where the printing happens */
 return (0);
-/**
-*Description: This returns 0
-*/
+/* Description: This returns 0 */
 }
