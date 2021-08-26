@@ -1,8 +1,6 @@
 /**
- * Description: This is a description.
- * Don't forget that a line should not exceed 80 characters.
- * But you're totally free to use several lines to properly
- * describe your function
+ * Program to print a text
+ *
  * Return: 0
  */
 #include<stdio.h>
