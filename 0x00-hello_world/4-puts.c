@@ -6,7 +6,7 @@
 #include<stdio.h>
 int main(void) /*main prints text*/
 {
-char put[] = "\"Programming is like building a multilingual puzzle\n";
+char put[] = "\"Programming is like building a multilingual puzzle";
 puts(put);
 /* Description: This is where the printing happens */
 return (0);
