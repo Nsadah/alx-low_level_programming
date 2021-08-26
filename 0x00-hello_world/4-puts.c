@@ -3,5 +3,5 @@ int main(void)
 {
 char put[]= "Programming is like building a multilingual puzzle\n";
 puts(put);
-return 0;
+return (0);
 }
