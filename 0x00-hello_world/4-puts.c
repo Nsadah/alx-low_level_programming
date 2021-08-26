@@ -1,7 +1,13 @@
 /**
- * Program to print a text
+ * op_add - Makes the sum of two numbers
+ * @arg1: First operand
+ * @arg2: Second operand
  *
- * Return: 0
+ * Description: This is a longer description.
+ * Don't forget that a line should not exceed 80 characters.
+ * But you're totally free to use several lines to properly
+ * describe your function
+ * Return: The sum of the two parameters
  */
 #include<stdio.h>
 int main(void)
