@@ -4,7 +4,7 @@
  * Return: 0
  */
 #include<stdio.h>
-int main(void) /*main prints text*/
+int main() /*main prints text*/
 {
 char charType;
 int intType;
