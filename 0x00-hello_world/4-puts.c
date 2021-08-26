@@ -1,4 +1,4 @@
-/*Description: Main entry point
+/**Description: Main entry point
 *Return: 0
 */
 #include<stdio.h>
