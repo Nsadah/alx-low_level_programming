@@ -6,10 +6,6 @@
  * describe your function
  * Return: 0
  */
-int main(void)
-{
-	return (0);
-}
 #include<stdio.h>
 int main(void)
 {
