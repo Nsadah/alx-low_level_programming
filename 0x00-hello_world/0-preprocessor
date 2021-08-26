@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${HELLO+Hello}${HELLO-World}"
+echo "${ $CFILE}${c}"
