@@ -4,7 +4,7 @@
  * Return: 0
  */
 #include<stdio.h>
-int main() /*main prints text*/
+int main(void) /*main prints text*/
 {
 char charType;
 int intType;
@@ -18,8 +18,8 @@ printf("Size of an int: %zu bytes\n", sizeof(intType));
 printf("Size of a long int: %zu bytes\n", sizeof(longintType));
 printf("Size of a long long int: %zu bytes\n", sizeof(longlongintType));
 printf("Size of float: %zu bytes\n", sizeof(floatType));
-
 /* Description: This is where the printing happens */
+
 return 0;
 /* Description: This returns 0 */
 }
