@@ -1,6 +1,6 @@
 /**
 *This program prints a text
-*int main - Short of description
+*main - Short of description
 *Return: 0
 */
 #include<stdio.h>
