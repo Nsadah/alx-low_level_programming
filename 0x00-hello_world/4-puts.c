@@ -4,7 +4,7 @@
 *Return: 0
 */
 #include<stdio.h>
-main(void)
+int main(void)
 {
 char put[] = "Programming is like building a multilingual puzzle\n";
 puts(put);
