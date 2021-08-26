@@ -1,10 +1,10 @@
 /**
 *This program prints a text
-*putting - Short description
+*main - Short description
 *Return: 0
 */
 #include<stdio.h>
-void putting(void)
+void main(void)
 {
 char put[] = "Programming is like building a multilingual puzzle\n";
 puts(put);
