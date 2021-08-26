@@ -1,17 +1,14 @@
 /**
- * op_add - Makes the sum of two numbers
- * @arg1: First operand
- * @arg2: Second operand
  *
- * Description: This is a longer description.
+ * Description: This is a description.
  * Don't forget that a line should not exceed 80 characters.
  * But you're totally free to use several lines to properly
  * describe your function
- * Return: The sum of the two parameters
+ * Return: 0
  */
-int op_add(int arg1, int arg2)
+int main(void)
 {
-	return (arg1 + arg2);
+	return (0);
 }
 #include<stdio.h>
 int main(void)
