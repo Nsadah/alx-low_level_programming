@@ -1,5 +1,5 @@
 /**
- * main - print with proper grammar, but the outcome is a piece of art,
+ * main - prints types of variables
  *
  * Return: 0
  */
