@@ -1,10 +1,6 @@
 #include<stdio.h>
-int main()
+main()
 {
-    //string initialisation
-    char Mystr[] = "C and C++";
-     
-    puts(Mystr); //writing the string to stdout
-     
+    puts("Programming is like building a multilingual puzzle);    
     return 0;
 }
