@@ -1,10 +1,8 @@
-/**
-*Description: Main entry point
-*main print "Programming is like building a multilingual puzzle
+/*Description: Main entry point
 *Return: 0
 */
 #include<stdio.h>
-int main(void)
+int main(void) /*main prints "Programming is like building a multilingual puzzle */
 {
 char put[] = "Programming is like building a multilingual puzzle\n";
 puts(put);
