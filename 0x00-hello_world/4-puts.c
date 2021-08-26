@@ -1,6 +1,4 @@
-/**Description: Main entry point
-*Return: 0
-*/
+/*Description: Main entry point*/
 #include<stdio.h>
 int main(void) /*main prints "Programming is like building a multilingual puzzle */
 {
