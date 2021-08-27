@@ -4,7 +4,6 @@
 /** more headers goes there
 * main - Entry prints text
 */
-
 int main(void)
 {
 int n;
