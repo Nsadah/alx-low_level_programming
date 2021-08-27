@@ -17,14 +17,14 @@ if (c < j)
 {
 putchar (c);
 putchar (j);
-if (c != '8'|| ((c == '8' )&& (j != '9')))
+if (c != '8' || ((c == '8') && (j != '9')))
 {
 putchar (',');
-putchar (' ');	
-}  			
-}  
+putchar (' '); 
+}
+}
 }
 }
 putchar ('\n');
-return (0); 	  
+return (0);
 }
