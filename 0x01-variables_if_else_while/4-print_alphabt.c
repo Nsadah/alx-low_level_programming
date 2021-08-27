@@ -4,14 +4,12 @@
  * Return: 0
  */
 #include<stdio.h>
-int main()
+int main(void)
 {
 char ch;
-
 for (ch = 'a'; ch <= 'z'; ch++)
-{
- if((ch < 'q'||ch > 'q') && (ch > 'e'||ch < 'e')
+if ((ch < 'q' || ch > 'q') && (ch > 'e' || ch < 'e'))
 putchar(ch);
 putchar('\n');
-return 0;
+return (0);
 }
