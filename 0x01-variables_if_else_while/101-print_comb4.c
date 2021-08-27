@@ -4,6 +4,12 @@
 	 * Return: 0
 	 */
 
+/**
+	 * main - prints to string
+	 * Description: Prints alphabet in lowercase
+	 * Return: 0
+	 */
+
 #include<stdio.h>  
 #include <unistd.h>
 int main(void)  
@@ -21,15 +27,19 @@ int main(void)
 	putchar (i);
 	putchar (j);
 	putchar (k);
-	
-	
-	putchar (',');
-	putchar (' ');	
+
+	if(i!='7'|| ((i == '7' )&& (j !='8')) || (j!='8'|| ((i == '8' )&& (k !='9')))) 
+		putchar (',');
+	putchar (' ');
+}
+		
 	}  			
     }  
     }
-    }
+
 		putchar('\n');
-	 return 0; 	  
-    }  
+	 return 0; 
+    }
+		  
+    
 
