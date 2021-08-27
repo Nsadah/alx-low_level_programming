@@ -1,10 +1,5 @@
 #include <stdio.h>
 #include <unistd.h>
-/**
-* main - prints combination
-* Description: Prints combination of three
-* Return: 0
-*/
 int main(void)
 {
 int i, j, k;
@@ -19,7 +14,7 @@ if (i < j && j < k)
 putchar (i);
 putchar (j);
 putchar (k);
-if (i != '7'|| ((i == '7') && (j != '8')) || (j != '8' || ((j == '8') && k != '9')))
+if (i != '7'|| ((i == '7') && (j != '8')) || ((j == '8') && k != '9'))
 {
 putchar (',');
 putchar (' ');
