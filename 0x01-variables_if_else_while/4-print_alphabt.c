@@ -8,7 +8,7 @@ int main()
 {
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
-if((ch < 'q'||ch > 'q') && (ch > 'e'||ch < 'e')
+if((ch < 'q'||ch > 'q') && (ch > 'e'||ch < 'e'))
 putchar(ch);
 putchar('\n');
 return 0;
