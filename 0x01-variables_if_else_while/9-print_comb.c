@@ -6,9 +6,12 @@
 #include<stdio.h>
 int main(void)
 {
-int x;
-for (x = 0; x < 10; x++)
-printf("%d", x);
-putchar('\n');
-return (0);
+int i;
+for(int i = 0; i < 100 ; i++){
+{
+putchar((i/10)+'0');
+putchar((i%10)+'0');
+putchar ('\n');
+}
+}
 }
