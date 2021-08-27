@@ -7,9 +7,9 @@
 int main(void)
 {
 int x = 0;
-while(x <10)
+while(x < 10)
 {
-for(x=0;x<10;x++)	
+for(x = 0; x < 10; x++)	
 putchar((x)+'0');
 putchar('\n');
 }
