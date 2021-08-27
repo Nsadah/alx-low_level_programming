@@ -9,13 +9,14 @@
 int main(void)
 {
 int n;
-int lastDigit = n % 10;
+int lastDigit;
+lastDigit = n % 10;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (lastDigit > 0)
 {
-printf("Last digit of %d is %d\n", n, last digit);
+printf("Last digit of %d is %d\n", n, lastDigit);
 }
 else if (lastDigit == 0)
 {
