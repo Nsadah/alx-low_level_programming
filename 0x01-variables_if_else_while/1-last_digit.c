@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -28,3 +29,6 @@ printf("Last digit of %d is %d and is less than 6 and not 0\n", n,lastDigit);
 }
 return (0);
 }
+=======
+
+>>>>>>> 83326dd43e18921d66285871784f7db136fee888
