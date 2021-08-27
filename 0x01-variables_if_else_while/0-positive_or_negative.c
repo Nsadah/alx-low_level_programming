@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
+/* main prints text */
 /* betty style doc for function main goes there */
-int main(void) /* main prints text */
+int main(void) 
 {
 int n;
 srand(time(0));
