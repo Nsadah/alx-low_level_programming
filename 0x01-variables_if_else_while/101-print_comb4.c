@@ -1,20 +1,20 @@
+#include<stdio.h>
+#include <unistd.h>
 /**
 * main - prints combination
 * Description: Prints combination of three
 * Return: 0
 */
-#include<stdio.h>
-#include <unistd.h>
 int main(void)
 {
 int i, j, k;
-for(i = '0'; i <= '9'; i++)
-{  
-for(j = '0'; j <= '9'; j++) 	 
-{  
-for (k =0; k <= '9'; k++)
+for (i = '0'; i <= '9'; i++)
 {
-if(i < j && j < k)
+for (j = '0'; j <= '9'; j++) 	 
+{  
+for (k = 0; k <= '9'; k++)
+{
+if (i < j && j < k)
 {
 putchar (i);
 putchar (j);
@@ -28,6 +28,6 @@ putchar (' ');
 }
 }
 }
-putchar('\n');
-return 0;
+putchar ('\n');
+return (0);
 }
