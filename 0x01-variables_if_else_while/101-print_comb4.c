@@ -40,17 +40,18 @@ int main(void)
 	putchar (j);
 	putchar (k);
 
-		if (i!='7'|| ((i == '7' )&& (j !='8')) || (j != '8' ||((j == '8') && k !='9')))
-
-	putchar (',');
-	putchar (' ');
-	}		
-	}  			
-    }  
-    }
-	
-	 return 0; 
-    }
+if (i!='7'|| ((i == '7' )&& (j !='8')) || (j != '8' ||((j == '8') && k !='9')))
+{
+putchar (',');
+putchar (' ');
+}
+}		
+}
+}
+}
+putchar('\n');
+return 0;
+}
 		  
     
 
