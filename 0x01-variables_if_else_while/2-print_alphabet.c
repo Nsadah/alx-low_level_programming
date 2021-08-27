@@ -1,4 +1,3 @@
-#include <stdio.h>
 /**
  * main - prints to string
  * Description: Prints alphabet in lowercase
@@ -11,6 +10,5 @@ int ch;
 /* print lowercase letters */
 for (ch= 'a'; ch<= 'z'; ch++)
 putchar(ch);
-putchar ('\n') ;
+putchar ('\n');
 }
-
