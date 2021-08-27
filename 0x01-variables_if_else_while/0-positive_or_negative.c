@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** more headers goes there
-* main - Entry prints text
-*/
+/**
+ * main - prints to string
+ * Description: Prints positive, negative or zero
+ * Return: 0
+ */
 int main(void)
 {
 int n;
