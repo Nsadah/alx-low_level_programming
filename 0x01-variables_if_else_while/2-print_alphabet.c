@@ -5,7 +5,7 @@
  * Return: 0
  */
 #include <stdio.h>
-int main()
+int main(void)
 {
 int ch;
 /* print lowercase letters */
