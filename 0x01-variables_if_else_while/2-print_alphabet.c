@@ -4,13 +4,12 @@
  * Description: Prints alphabet in lowercase
  * Return: 0
  */
-int main(void)
+#include <stdio.h>
+int main()
 {
-int ch = 'a';
-for (ch = 'a'; ch <= 'z'; ch++)
-{
+int ch;
+/* print lowercase letters */
+for (ch= 'a'; ch<= 'z'; ch++)
 putchar(ch);
-putchar('\n');
-}
-return (0);
+putchar ('\n') ;
 }
