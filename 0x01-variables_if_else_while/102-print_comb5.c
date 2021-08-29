@@ -7,14 +7,14 @@
 #include <unistd.h>
 int main(void)
 {
-int a,b,c,d;
-for (a = '0'; a <= '9'; a++)
+int a , b, c , d;
+for (a = '0'; a <= '9' ; a++)
 {
-for (b = '0'; b <= '9'; b++)
+for (b = '0'; b <= '9' ; b++)
 {
-for (c = '0'; c <= '9'; c++)
+for (c = '0'; c <= '9' ; c++)
 {
-for(d = '0'; d <= '9'; d++)
+for(d = '0'; d <= '9' ; d++)
 {
 if(!(a==b || a==c || a==d || b==c || b==d || c==d))
 {
@@ -23,7 +23,7 @@ putchar (b);
 putchar (' ');
 putchar (c);
 putchar (d);
-putchar (',');
+putchar (' , ');
 putchar (' ');
 }		
 }
