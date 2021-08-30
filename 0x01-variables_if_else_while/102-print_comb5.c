@@ -1,41 +1,41 @@
-#include <stdio.h>
 /**
- * main - Prints 3 combination of numbers
- *
- * Return: Always (Success)
- */
-int main(void)
+*
+* main - prints double digit combinations of numbers
+*
+* Retun : 0
+*/
+#include <stdio.h>
+int main (void)
 {
-int c, i, k, j;
+int a, b, c, d;
+for (a = 48; a <= 57; a++)
+{
+for (b = 48; b <= 57; b++)
+{
 for (c = 48; c <= 57; c++)
 {
-for (i = 48; i <= 57; i++)
+for (d = 48; d <= 57; d++)
+if(((c + d) > (a + b) && c >= a) || a < c)
 {
-for (k = 48; k <= 57; k++)
-{
-for (j = 48; j <= 57; j++)
-{
-if (((k + j) > (c + i) && k >= c) || c < k)
-{
-putchar(c);
-putchar(i);
-putchar(' ');
-putchar(k);
-putchar(j);
-if (c + i + k + j == 227 && c == 57)
+putchar (a);
+putchar (b);
+putchar (' ');
+putchar (c);
+putchar (d);
+if(a + b + c + d == 227 && a == 57)
 {
 break;
 }
 else
-{
-putchar(',');
-putchar(' ');
+putchar (',');
+putchar (' ');
 }
 }
 }
 }
 }
 }
-putchar('\n');
+}
+putchar ('\n');
 return (0);
 }
