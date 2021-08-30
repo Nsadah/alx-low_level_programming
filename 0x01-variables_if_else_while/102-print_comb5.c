@@ -4,7 +4,7 @@
 *Return: 0
 */
 #include <stdio.h>
-int main(void)s
+int main(void)
 {
 int a, b, c, d;
 for (a = 48; a <= 57; a++)
