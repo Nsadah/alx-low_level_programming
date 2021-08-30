@@ -1,7 +1,4 @@
-/**
-*main - prints double didgit cominations
-*description: Prints double digit combinations
-*Return: 0
+/***main - prints double didgit cominations*description: Prints double digit combinations*Return: 0
 */
 #include <stdio.h>
 int main(void)
@@ -35,5 +32,5 @@ putchar (' ');
 }
 }
 putchar ('\n');
-return (0);
+  return (0);
 }
