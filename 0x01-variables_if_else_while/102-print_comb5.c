@@ -27,6 +27,7 @@ if(a + b + c + d == 227 && a == 57)
 break;
 }
 else
+{
 putchar (',');
 putchar (' ');
 }
