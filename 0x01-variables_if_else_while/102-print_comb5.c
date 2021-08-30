@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-*main-prints to string
-*Description: Prints double combinations
-*Return: 0
-*/
+ * main - Prints 3 combination of numbers
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
 int c, i, k, j;
