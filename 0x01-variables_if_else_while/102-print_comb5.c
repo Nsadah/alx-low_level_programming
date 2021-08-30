@@ -1,9 +1,10 @@
 /**
+*main - prints double didgit comination
 *description: Prints double digit combinations
 *Return: 0
 */
 #include <stdio.h>
-int main(void) /* main - prints double didgit cominations */
+int main(void)s
 {
 int a, b, c, d;
 for (a = 48; a <= 57; a++)
