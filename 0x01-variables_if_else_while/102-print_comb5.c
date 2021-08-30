@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-*main - Prints 3 combination of numbers
-*
-* Return: Always (Success)
+* main - prints combination
+* Description: Prints combination
+* Return: 0
 */
 int main(void)
 {
