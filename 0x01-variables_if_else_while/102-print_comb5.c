@@ -3,33 +3,45 @@
 * Description: Prints alphabet in lowercase
 * Return: 0
 */
-#include<stdio.h>
-#include <unistd.h>
+
+#include <stdio.h>
+/**
+ * main - Prints 3 combination of numbers
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
-int a , b, c , d;
-for (a = '0'; a <= '9' ; a++)
+int c, i, k, j;
+for (c = 48; c <= 57; c++)
 {
-for (b = '0'; b <= '9' ; b++)
+for (i = 48; i <= 57; i++)
 {
-for (c = '0'; c <= '9' ; c++)
+for (k = 48; k <= 57; k++)
 {
-for(d = '0'; d <= '9' ; d++)
+for (j = 48; j <= 57; j++)
 {
-if(!(a==b || a==c || a==d || b==c || b==d || c==d))
+if (((k + j) > (c + i) && k >= c) || c < k)
 {
-putchar (a);
-putchar (b);
-putchar (' ');
-putchar (c);
-putchar (d);
-putchar (',');
-putchar (' ');
-}		
+putchar(c);
+putchar(i);
+putchar(' ');
+putchar(k);
+putchar(j);
+if (c + i + k + j == 227 && c == 57)
+{
+break;
+}
+else
+{
+putchar(',');
+putchar(' ');
 }
 }
 }
 }
-putchar ('\n');
+}
+}
+putchar('\n');
 return (0);
 }
