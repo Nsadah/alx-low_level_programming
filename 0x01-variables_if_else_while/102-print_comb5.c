@@ -1,15 +1,9 @@
 /**
-* main - prints to string
-* Description: Prints alphabet in lowercase
-* Return: 0
+*main-prints to string
+*Description: Prints double combinations
+*Return: 0
 */
-
 #include <stdio.h>
-/**
- * main - Prints 3 combination of numbers
- *
- * Return: Always (Success)
- */
 int main(void)
 {
 int c, i, k, j;
