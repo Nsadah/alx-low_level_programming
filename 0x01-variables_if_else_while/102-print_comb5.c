@@ -1,10 +1,10 @@
 /**
-* main - prints to double digit combinations
-* Description: Prints double digit combinations
-* Return: 0
-*/
+ * main - prints to double digit combinations
+ * Description: Prints double digit combinations
+ * Return: 0
+ */
 #include <stdio.h>
-int main (void)
+int main(void)
 {
 int a, b, c, d;
 for (a = 48; a <= 57; a++)
