@@ -1,6 +1,7 @@
 /**
-* main - prints double digit combinations of numbers
-* Retun : 0
+* main - prints to double digit combinations
+* Description: Prints double digit combinations
+* Return: 0
 */
 #include <stdio.h>
 int main (void)
