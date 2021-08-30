@@ -1,7 +1,7 @@
 /**
 * main - prints combination
 * Description: prints combinations
-* return: 0
+* Return: 0
 */
 #include <stdio.h>
 int main(void)
