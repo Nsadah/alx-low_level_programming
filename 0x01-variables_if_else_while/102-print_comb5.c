@@ -1,9 +1,7 @@
 /**
- * main - prints to string
- * Description: Prints positive, negative or zero
- * Return: 0
- */
-
+* main - prints combination
+*
+*/
 #include <stdio.h>
 int main(void)
 {
