@@ -1,3 +1,9 @@
+/**
+ * main - prints to string
+ * Description: Prints positive, negative or zero
+ * Return: 0
+ */
+
 #include <stdio.h>
 int main(void)
 {
@@ -17,7 +23,8 @@ putchar(i);
 putchar(' ');
 putchar(k);
 putchar(j);
-if (c + i + k + j == 227 && c == 57){
+if (c + i + k + j == 227 && c == 57)
+{
 break;
 }
 else
