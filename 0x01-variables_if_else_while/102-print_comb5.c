@@ -1,7 +1,5 @@
 /**
-*
 * main - prints double digit combinations of numbers
-*
 * Retun : 0
 */
 #include <stdio.h>
