@@ -8,17 +8,15 @@
  */
 int _isalpha(int c)
 {
-for (c = 'a'; c <= 'z'; c++)
+int i = 'a';
+
+for (i = 'a'; i <= 'z'; i++)
 {
 /* refer int c*/
-}
-if (isalpha(c))
+if (c == i)
 {
 return (1);
 }
-else
-{
-return (0);
 }
-
+return (0);
 }
