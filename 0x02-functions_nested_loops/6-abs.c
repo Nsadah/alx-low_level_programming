@@ -12,18 +12,15 @@ int _abs(int N)
         N = (-1) * N;
     }
  
-    // Print the absolute value
     printf("%d ", N);
 }
  
-// Driver Code
+
 int main()
 {
  
-    // Given integer
     int N = -12;
  
-    // Function call
    _abs(N);
     return 0;
 }
