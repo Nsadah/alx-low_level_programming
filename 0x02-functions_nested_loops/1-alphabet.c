@@ -15,5 +15,5 @@ putchar ('\n');
 }
 void print_alphabet(char ch)
 {
-return ch; 
+return int ch; 
 }
