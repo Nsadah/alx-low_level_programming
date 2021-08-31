@@ -2,6 +2,7 @@
 * _islower - prints to string
 * Description: Prints alphabet in lowercase
 * int _islower(int c)
+* parameter or member 'c' is integer value
 * Return: 1 (Success)
 */
 #include "main.h"
