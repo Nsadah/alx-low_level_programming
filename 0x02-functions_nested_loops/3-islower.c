@@ -1,7 +1,7 @@
 /**
  * _islower - prints to string
- * Description: chcceks for lower case
- * at c: enter integer value
+ * Description: chekcs for lower case
+ * @ c: integer value received
  * Return: 1
  */
 #include "main.h"
