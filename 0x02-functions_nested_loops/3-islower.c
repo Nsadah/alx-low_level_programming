@@ -1,7 +1,7 @@
 /**
 * _islower - prints to string
-* Description: Prints alphabet in lowercase && int c is a variable
 * int _islower(int c)
+* Description: Prints alphabet in lowercase || c is a variable
 * Return: 1 (Success)
 */
 #include "main.h"
