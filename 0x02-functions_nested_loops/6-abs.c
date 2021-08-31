@@ -11,7 +11,7 @@ int _abs(int n)
 {
 if (n < 0)
 {
-putchar('1');
+printf("1");
 }
 else
 {
