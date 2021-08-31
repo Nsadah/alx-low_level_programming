@@ -1,18 +1,22 @@
-/**
- * _isalpha - prints to string
- * Description: 'c' - is a parameter of int _isaplha(int c)
- * Return: 1
- */
 #include "main.h"
-#include<ctype.h>
-int _isalpha(int c) /* c is a variable*/
+
+/**
+ * _isalpha - Entry point
+ * Description: checks is a character lowercase
+ * @c: the integer value it receives
+ * Return: 1 if true. 0 if false.
+ */
+int _isalpha(int c)
 {
-if (isalpha(c))
+int i = 'a';
+
+for (i = 'a'; i <= 'z'; i++)
+{
+/* refer int c*/
+if (c == i)
 {
 return (1);
 }
-else
-{
-return (0);
 }
+return (0);
 }
