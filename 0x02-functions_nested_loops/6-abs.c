@@ -8,19 +8,11 @@
 #include <stdio.h>
 int _abs(int N)
 {
-    if (N < 0) {
-        N = (-1) * N;
-    }
- 
-    printf("%d ", N);
-}
- 
-
-int main()
+if (N < 0)
 {
- 
-    int N = -12;
- 
-   _abs(N);
-    return 0;
+/* refer int n*/
+printf("%d\n",N);
+}
+return (0);
+}
 }
