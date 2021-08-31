@@ -16,5 +16,5 @@ putchar ('\n');
 void print_alphabet(void)
 {
 int ch;  
-return ch; 
+return int ch; 
 }
