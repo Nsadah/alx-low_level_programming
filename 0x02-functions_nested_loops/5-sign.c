@@ -6,7 +6,7 @@
  */
 #include "main.h"
 #include<ctype.h>
-int print_sign(int n) 
+int print_sign(int n)
 {
   /* refer int n*/
 if (n > 0)
