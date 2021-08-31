@@ -10,9 +10,9 @@
 int _abs(int N)
 {
 N = N * (-1);
-if(N < 0 || N > 0)
+if(N < 0)
 {
-putchar(N);
+putchar('1');
 }
 else
 {
