@@ -16,7 +16,8 @@ putchar('1');
 }
 else
 {
-printf("\n");
+
 }
+putchar('\n');
 return (0);
 }
