@@ -12,7 +12,7 @@ int _abs(int N)
 N = N * (-1);
 if(N < 0 || N > 0)
 {
-printf("\n");
+putchar(N);
 }
 else
 {
