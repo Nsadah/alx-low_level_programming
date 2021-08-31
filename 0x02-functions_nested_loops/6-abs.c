@@ -8,9 +8,7 @@
 #include <stdio.h>
 int _abs(int N)
 {
-if (N < 0)
-{
-/* refer int n*/
+int X = abs(N);/* refer int n*/
 printf("%d\n",N);
 }
 return (0);
