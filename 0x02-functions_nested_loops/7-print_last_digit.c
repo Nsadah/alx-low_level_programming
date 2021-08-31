@@ -10,7 +10,6 @@
 #include <time.h>
 int print_last_digit(int n)
 {
-int n;
 int lastDigit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
