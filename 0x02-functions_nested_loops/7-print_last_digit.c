@@ -1,14 +1,14 @@
 /**
- * print_last_digit - prints to int
- * @n: receives integer value 
- *Description: prints absolute value
+ * print_last_digit(int n) - prints to int
+ * Description: prints last digit
+ *@n: the integer value it receives
  * Return: 0
  */
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 int n;
 int lastDigit;
