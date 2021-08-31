@@ -8,7 +8,7 @@
 int main(void)
 {
 int n;
-if (n < 0)
+if (int n < 0)
 {
 n = (-1) * n;
 _putchar (n);
