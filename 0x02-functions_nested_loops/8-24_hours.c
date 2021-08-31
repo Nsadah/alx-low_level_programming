@@ -1,7 +1,7 @@
 /**
- * jack_bauer(void); - prints to int
- * Description: prints time
- * Return: 0
+ *jack_bauer - prints to string
+ * Description: Prints alphabet in lowercase
+ * void jack_bauer(void)
  */
 #include "main.h"
 #include <stdio.h>
