@@ -10,7 +10,7 @@ int _islower(int c)
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
-putchar(ch);
+_putchar(ch);
 if ( islower(ch) )
 {  
 return 1;
