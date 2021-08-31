@@ -1,6 +1,7 @@
 /**
  * _islower - prints to string
- * Description: int c is a variable
+ * Description: chcceks for lower case
+ * at c: enter integer value
  * Return: 1
  */
 #include "main.h"
