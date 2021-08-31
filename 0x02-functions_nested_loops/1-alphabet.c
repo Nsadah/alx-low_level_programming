@@ -4,7 +4,6 @@
  * Return: Always (Success)
  */
 #include <stdio.h>
-}
 int main(void)
 {
 print_alphabet();
@@ -17,3 +16,4 @@ for (ch = 'a'; ch <= 'z'; ch++)
 {
 putchar(ch);	
 } 
+}
