@@ -7,16 +7,15 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
-int _abs(int N)
+int _abs(int n)
 {
-N = N * (-1);
-if(N < 0)
+n = n * (-1);
+if(n < 0)
 {
 putchar('1');
 }
 else
 {
-
 }
 putchar('\n');
 return (0);
