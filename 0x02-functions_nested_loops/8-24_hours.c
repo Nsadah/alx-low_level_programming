@@ -17,7 +17,7 @@ for (hour = 0; hour < 24; hour++)
 {
 for (minute = 0; minute < 60; minute++)
 {
-printf("%2d : %2d" ,hour,minute);
+printf("%2d : %2d\n" ,hour,minute);
 }
 }
 }
