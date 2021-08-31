@@ -1,6 +1,6 @@
 /**
  * _isalpha - prints to string
- * Description: int _isaplha(int c) has a parameter 'c'
+ * Description: 'c' - is a parameter of int _isaplha(int c)
  * Return: 1
  */
 #include "main.h"
