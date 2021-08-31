@@ -1,7 +1,7 @@
 /**
- * main - check the code for ALX School students.
- *
- * Return: Always 0.
+ * _islower - prints to string
+ * Description: c is a variable
+ * Return: 1
  */
 #include "main.h"
 #include<ctype.h>
