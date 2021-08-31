@@ -7,12 +7,7 @@
 #include<ctype.h>
 int _islower(int c)
 {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-_putchar(ch);
-}
-if ( c == islower(ch) )
+if ( c == islower(c) )
 {  
 return 1;
 }
