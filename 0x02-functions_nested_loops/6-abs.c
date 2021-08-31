@@ -5,14 +5,13 @@
  */
 #include "main.h"
 #include<ctype.h>
-int _abs(int) /* c is a variable*/
+int _abs(int)
 {
-	int n;
+int n;
 if (n < 0)
 {
-	n = (-1) * n;
-_putchar (n;
-
+n = (-1) * n;
+_putchar (n);
 }
 _putchar ('\n');
 return (0);
