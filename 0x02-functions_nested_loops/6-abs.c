@@ -5,7 +5,7 @@
  */
 #include "main.h"
 #include<stdio.h>
-int main(void)
+int _abs(int)
 {
 int n;
 if (int n < 0)
