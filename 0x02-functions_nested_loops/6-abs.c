@@ -9,13 +9,14 @@
 #include <stdio.h>
 int _abs(int N)
 {
+N = N * (-1);
 if(N < 0 || N > 0)
 {
-printf("1\n");
+printf("\n");
 }
 else
 {
-printf("0");
+printf("\n");
 }
 return (0);
 }
