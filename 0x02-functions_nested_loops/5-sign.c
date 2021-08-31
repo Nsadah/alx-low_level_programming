@@ -5,7 +5,7 @@
  */
 #include "main.h"
 #include<ctype.h>
-int print_sign(int n); /* c is a variable*/
+int print_sign(int n) /* c is a variable*/
 {
 if (n > 0)
 {
