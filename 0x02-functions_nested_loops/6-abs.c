@@ -9,8 +9,7 @@
 #include <stdio.h>
 int _abs(int n)
 {
-n = n * (-1);
-if(n < 0)
+if (n < 0)
 {
 putchar('1');
 }
