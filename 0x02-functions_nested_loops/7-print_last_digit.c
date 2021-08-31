@@ -6,8 +6,6 @@
  */
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 int print_last_digit(int n)
 {
 int lastDigit;
