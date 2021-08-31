@@ -6,7 +6,7 @@
  */
 #include "main.h"
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 int _abs(int N)
 {
 int X = abs(N);/* refer int n*/
