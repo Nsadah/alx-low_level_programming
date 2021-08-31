@@ -4,8 +4,8 @@
  * Return: 0
  */
 #include "main.h"
-#include<ctype.h>
-int _abs(int)
+#include<stdio.h>
+int main(void)
 {
 int n;
 if (n < 0)
