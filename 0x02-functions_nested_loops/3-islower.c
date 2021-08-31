@@ -5,7 +5,7 @@
  */
 #include "main.h"
 #include<ctype.h>
-int main()
+int _islower(int c)
 {
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
