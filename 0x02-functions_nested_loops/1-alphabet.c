@@ -3,21 +3,18 @@
  * Description: Prints alphabet in lowercase
  * Return: Always (Success)
  */
-
+ 
 #include <stdio.h>
 void print_alphabet(void)
 {
-int ch;  
-return ch;
+int ch ='a'; 
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+putchar(ch);	
+} 
 }
 int main(void)
 {
-int x;
-void print_alphabet(x);
-for (x = 'a'; x <= 'z'; x++)
-{
-putchar(x);	
-}
+print_alphabet();
 putchar ('\n');
-return;
 }
