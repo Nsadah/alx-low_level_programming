@@ -5,8 +5,7 @@
  */
 #include "main.h"
 {
-print_alphabet();
-}
+print_alphabet();}
 {
 char ch; 
 for (ch = 'a'; ch <= 'z'; ch++)
