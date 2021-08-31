@@ -1,6 +1,6 @@
 /**
  * _islower - prints to string
- * Description: c is a variable
+ * Description: int c is a variable
  * Return: 1
  */
 #include "main.h"
