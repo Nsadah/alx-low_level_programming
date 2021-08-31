@@ -1,7 +1,7 @@
 /**
-* print_alphabet - prints to string
+* _islower - prints to string
 * Description: Prints alphabet in lowercase
-* void print_alphabet(void)
+* int _islower(int c)
 */
 #include "main.h"
 #include<ctype.h>
