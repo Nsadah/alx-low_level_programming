@@ -1,13 +1,13 @@
 /**
 * _islower - prints to string
 * Description: Prints alphabet in lowercase
-* int _islower(int c) where 'c' is an integer value
-* 'c' is an integer value
+* int _islower(int c) where 'c' is a variable
+* Description: 'c' is an integer value
 * Return: 1 (Success)
 */
 #include "main.h"
 #include<ctype.h>
-int _islower(int c)  /* c is an integer value */
+int _islower(int c)
 {
 if (islower(c))
 {
