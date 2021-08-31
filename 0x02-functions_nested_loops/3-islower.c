@@ -1,6 +1,6 @@
 /**
 * _islower - prints to string
-* Description: Prints alphabet in lowercase && int c is a variable in the functio
+* Description: Prints alphabet in lowercase && int c is a variable
 * int _islower(int c)
 * Return: 1 (Success)
 */
