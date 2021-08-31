@@ -6,7 +6,7 @@
 #include <stdio.h>
 int main(void)
 {
-printf("Holberton");
+printf("_putchar");
 putchar ('\n');
 return (0);
 }
