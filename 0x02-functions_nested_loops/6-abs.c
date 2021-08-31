@@ -6,10 +6,10 @@
  */
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 int _abs(int N)
 {
 int X = abs(N);/* refer int N*/
 printf("%d\n",X);
-}
 return (0);
 }
