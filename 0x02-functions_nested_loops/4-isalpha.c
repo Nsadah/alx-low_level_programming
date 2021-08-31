@@ -11,6 +11,7 @@ int _isalpha(int c)
 for (c = 'a'; c <= 'z'; c++)
 {
 /* refer int c*/
+}
 if (isalpha(c))
 {
 return (1);
@@ -19,5 +20,5 @@ else
 {
 return (0);
 }
-}
+
 }
