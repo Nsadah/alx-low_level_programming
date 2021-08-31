@@ -5,10 +5,10 @@
  */
 #include "main.h"
 #include<stdio.h>
-int _abs(int)
+int main(void)
 {
 int n;
-if (int n < 0)
+if (n < 0)
 {
 n = (-1) * n;
 _putchar (n);
