@@ -7,9 +7,9 @@
 #include "main.h"
 void print_to_98(int n)
 {
-for (a = 0 ; a <= 98; a++ ) 
+for (n = 0 ; n <= 98; n++ ) 
 {
-printf("%d, ",a);
+printf("%d, ",n);
 }
 printf("\n");
 }
