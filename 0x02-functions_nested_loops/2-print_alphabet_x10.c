@@ -4,7 +4,7 @@
  * void print_alphabet(void)
  */
 #include "main.h"
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 int x;
 char ch;
