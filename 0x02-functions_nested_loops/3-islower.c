@@ -1,8 +1,8 @@
 /**
-* _islower - this is a name followed by a parameter 'c'
-* Description: Prints alphabet in lowercase
-* Return: 1 (Success)
-*/
+ * main - check the code for ALX School students.
+ *
+ * Return: Always 0.
+ */
 #include "main.h"
 #include<ctype.h>
 int _islower(int c)
