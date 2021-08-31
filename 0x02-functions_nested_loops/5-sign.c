@@ -1,12 +1,14 @@
 /**
  * print_sign - prints to int
- * Description: int c is a variable
+ * Description: int n is a variable
+ *@n: the integer value it receives
  * Return: 1
  */
 #include "main.h"
 #include<ctype.h>
-int print_sign(int n) /* c is a variable*/
+int print_sign(int n) 
 {
+  /* refer int n*/
 if (n > 0)
 {
 _putchar ('+');
