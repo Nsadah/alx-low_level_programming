@@ -1,6 +1,5 @@
 /**
 * _islower - prints to string
-* int _islower(int c)
 * Description: Prints alphabet in lowercase || c is a variable
 * Return: 1 (Success)
 */
