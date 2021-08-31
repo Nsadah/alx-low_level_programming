@@ -13,7 +13,7 @@ int i = 'a';
 for (i = 'a'; i <= 'z'; i++)
 {
 /* refer int c*/
-if (c == i)
+if (isalpha(c))
 {
 return (1);
 }
