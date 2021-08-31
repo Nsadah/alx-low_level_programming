@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 int _abs(int N)
+{
 if(N < 0 || N > 0)
 {
 printf("1\n");
