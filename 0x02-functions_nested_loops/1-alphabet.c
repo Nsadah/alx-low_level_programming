@@ -4,7 +4,6 @@
  * Return: 0
  */
 #include "main.h"
-void print_alphabet(void);
 void print_alphabet(void)
 {
 char ch; 
