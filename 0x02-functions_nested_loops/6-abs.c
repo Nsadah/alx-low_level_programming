@@ -8,11 +8,25 @@
 
 int _abs(int n)
 {
-if (n < 0)
-{
-n = n * (-1);
+ 
+    // If the number is less than
+    // zero, then multiply by (-1)
+    if (N < 0) {
+        N = (-1) * N;
+    }
+ 
+    // Print the absolute value
+    printf("%d ", N);
 }
-_putchar (n);
-_putchar ('\n');
-return (0);
+ 
+// Driver Code
+int main()
+{
+ 
+    // Given integer
+    int N = -12;
+ 
+    // Function call
+    findAbsolute(N);
+    return 0;
 }
