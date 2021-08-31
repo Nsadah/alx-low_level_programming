@@ -4,8 +4,7 @@
  * void print_alphabet(void)
  */
 #include "main.h"
-{
-print_alphabet();}
+print_alphabet();
 {
 char ch; 
 for (ch = 'a'; ch <= 'z'; ch++)
