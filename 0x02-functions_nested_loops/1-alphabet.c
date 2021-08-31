@@ -5,17 +5,19 @@
  */
 #include <stdio.h>
 #include "main.h"
-void print_alphabet(void)
-{
-int ch; 
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-putchar(ch);	
-} 
-}
-int main(void)
-{
 print_alphabet();
 putchar ('\n');
 return 0;
 }
+void print_alphabet(void)
+{
+char ch; 
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+putchar(ch);	
+}
+_putchar('\n');
+return;
+}
+
+
