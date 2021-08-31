@@ -13,8 +13,7 @@ for (ch = 'a'; ch <= 'z'; ch++)
 putchar(ch);
 putchar ('\n');
 }
-void print_alphabet(void)
+void print_alphabet(char ch)
 {
-int ch;  
-return void print_alphabet(void); 
+return ch; 
 }
