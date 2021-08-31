@@ -1,5 +1,5 @@
 /**
- * main - prints to string
+ * print_alphabet - prints to string
  * Description: Prints alphabet in lowercase
  * void print_alphabet(void)
  */
