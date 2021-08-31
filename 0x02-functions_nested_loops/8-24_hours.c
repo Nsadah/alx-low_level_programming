@@ -10,9 +10,9 @@ void jack_bauer(void)
 {
 char h;
 char m;
-for (h = '00'; h < '24'; h++)
+for (h = 00; h < 24; h++)
 {
-for (m = '00'; m < 60; m++)
+for (m = 00; m < 60; m++)
 {
 putchar (h);
 putchar(':');
