@@ -11,6 +11,7 @@ char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 _putchar(ch);
+}
 if ( c == islower(ch) )
 {  
 return 1;
@@ -18,6 +19,5 @@ return 1;
 else
 {
 return 0;   
-}
 }
 }
