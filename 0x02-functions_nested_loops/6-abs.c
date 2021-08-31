@@ -1,5 +1,5 @@
 /**
- * int _abs(int n) - prints to int
+ * _abs - prints to int
  * Description: prints absolute value
  *@n: the integer value it receives
  * Return: 0
