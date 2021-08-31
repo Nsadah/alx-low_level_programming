@@ -5,7 +5,7 @@
 */
 #include "main.h"
 #include<ctype.h>
-int _islower(int c) /* 'c' is a parameter */
+int _islower(int c) /* this is a name followed by a parameter 'c' */
 {
 if (islower(c))
 {
