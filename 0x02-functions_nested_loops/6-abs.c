@@ -8,8 +8,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 int _abs(int N)
+if(N < 0 || N > 0)
 {
-int X = abs(N);/* refer int N*/
-printf("%d\n",X);
+printf("1\n");
+}
+else
+{
+printf("0")
+}
 return (0);
 }
