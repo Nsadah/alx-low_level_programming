@@ -8,7 +8,7 @@
 #include<ctype.h>
 int _islower(int c)
 {
-if (islower(c))
+if (islower(c)) /* c is the parameter */
 {
 return (1);
 }
