@@ -1,13 +1,14 @@
 /**
- * int _abs(int) - prints to int
+ * int _abs(int n) - prints to int
  * Description: prints absolute value
+ *@n: the integer value it receives
  * Return: 0
  */
 #include "main.h"
 #include<stdio.h>
 int main(void)
 {
-int n;
+int _abs(int n)
 if (n < 0)
 {
 n = (-1) * n;
