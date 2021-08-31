@@ -10,14 +10,14 @@
 #include <stdlib.h>
 void jack_bauer(void)
 {
-int hour, minute, second;
-hour=minute=second=0;
+int hour, minute;
+hour=minute=0;
   
-for (h = 0; h < 24; h++)
+for (hour = 0; hour < 24; hour++)
 {
-for (m = 0; m < 60; m++)
+for (minute = 0; minute < 60; minute++)
 {
-printf("%2d : %2d" ,h,m);
+printf("%2d : %2d" ,hour,minute);
 }
 }
 }
