@@ -3,10 +3,7 @@
  * Description: Prints alphabet in lowercase
  * Return: Always (Success)
  */
-
 #include <stdio.h>
-int addNumbers(int a, int b);         // function prototype
-
 int main(void)
 {
 int ch;
