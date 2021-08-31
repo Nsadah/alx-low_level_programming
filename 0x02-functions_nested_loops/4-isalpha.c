@@ -8,9 +8,7 @@
  */
 int _isalpha(int c)
 {
-int i = 'a';
-
-for (i = 'a'; i <= 'z'; i++)
+for (c = 'a'; c <= 'z'; c++)
 {
 /* refer int c*/
 if (isalpha(c))
