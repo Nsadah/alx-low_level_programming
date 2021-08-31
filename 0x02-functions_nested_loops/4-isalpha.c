@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <ctype.h>
 /**
  * _isalpha - Entry point
  * Description: checks is a character lowercase
