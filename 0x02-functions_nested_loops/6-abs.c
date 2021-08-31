@@ -5,7 +5,7 @@
  * Return: 0
  */
 #include "main.h"
-
+#include <stdio.h>
 int _abs(int N)
 {
     if (N < 0) {
