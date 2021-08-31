@@ -5,10 +5,10 @@
 */
 #include "main.h"
 #include<ctype.h>
-int _islower(int c)
+int _islower(int c) /* Description:  c is the parameter */
 {
-if (islower(c)) /*Description:  c is the parameter */
 {
+if (islower(c)) 
 return (1);
 }
 else
