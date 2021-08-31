@@ -1,11 +1,11 @@
 /**
  * main - prints to string
  * Description: Prints alphabet in lowercase
- * Return: Always (Success)
+ * Return: 0
  */
-#include <stdio.h>
 #include "main.h"
 print_alphabet();
+return (0);
 void print_alphabet(void)
 {
 char ch; 
