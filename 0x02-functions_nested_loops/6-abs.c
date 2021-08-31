@@ -5,12 +5,11 @@
  * Return: 0
  */
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 int _abs(int N)
 {
-int X = abs(N);/* refer int n*/
-printf("%d\n",N);
+int X = abs(N);/* refer int N*/
+printf("%d\n",X);
 }
 return (0);
 }
