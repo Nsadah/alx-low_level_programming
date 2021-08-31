@@ -1,11 +1,11 @@
 /**
-* _islower - prints to string
-* Description: Prints alphabet in lowercase || c is a variable
+* _islower - this is a name followed by a parameter 'c'
+* Description: Prints alphabet in lowercase
 * Return: 1 (Success)
 */
 #include "main.h"
 #include<ctype.h>
-int _islower(int c) /* this is a name followed by a parameter 'c' */
+int _islower(int c)
 {
 if (islower(c))
 {
