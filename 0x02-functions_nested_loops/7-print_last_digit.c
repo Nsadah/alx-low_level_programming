@@ -10,6 +10,9 @@ int print_last_digit(int n)
 {
 int lastDigit;
 lastDigit = n % 10;
+if (lastDigit <= 9)
+{
 printf("%d",lastDigit);
 return (lastDigit);
+}
 }
