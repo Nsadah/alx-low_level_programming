@@ -1,4 +1,5 @@
 /**
+ * void print_alphabet is the prototype
  * main - prints to string
  * Description: Prints alphabet in lowercase
  * Return: Always (Success)
@@ -12,8 +13,8 @@ for (ch = 'a'; ch <= 'z'; ch++)
 putchar(ch);
 putchar ('\n');
 }
-void print_alphabet(void)         // function definition   
+void print_alphabet(void)
 {
 int ch;  
-return print_alphabet;        // return statement
+return print_alphabet; 
 }
