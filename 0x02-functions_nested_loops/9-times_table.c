@@ -1,26 +1,39 @@
-/**
-* print_last_digit - prints to int
-* Description: prints last digit
-*@n: the integer value it receives
-* Return: l
-*/
 #include "main.h"
-#include <stdio.h>
+
+/**
+ * times_table - prints the 9 times table
+ * Description: prints the 9 times table
+ * Return: void
+ */
 void times_table(void)
 {
-int i,j;	
-for(i=0;i<=9;i++)
+int row, column, product, tens, ones;
+for (row = 0; row <= 9; row++)
 {
-for(j=0;j<=9;j++)
+for (column = 0; column <= 9; column++)
+	{
+product = row * column;
+tens = product / 10;
+ones = product % 10;
+if (column == 0)
 {
-
-printf("%d",(i*j));        
-if(j%9 != 0 || j == 0)
+	_putchar('0');
+}
+else if (product < 10)
 {
- 
-printf(",  ");
+_putchar(',');
+_putchar(' ');
+	_putchar(' ');
+_putchar(ones + '0');
+}
+else
+{
+_putchar(',');
+_putchar(' ');
+_putchar(tens + '0');
+_putchar(ones + '0');
 }
 }
-printf("\n");
+_putchar('\n');
 }
 }
