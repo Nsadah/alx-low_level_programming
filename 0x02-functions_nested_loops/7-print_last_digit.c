@@ -8,11 +8,7 @@
 #include <stdio.h>
 int print_last_digit(int n)
 {
-int l;
-l = n % 10;
-if (l <= 9)
-{
-putchar(l);
-}
+n = n % 10;
+putchar(n);
 return (l);
 }
