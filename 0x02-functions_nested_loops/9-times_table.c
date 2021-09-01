@@ -15,5 +15,4 @@ for (b = 0 ; b <=9; b++ )
 printf("%d, " , a * b);						
 printf("\n");			
 }
-return 0;
 }
