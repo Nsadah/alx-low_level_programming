@@ -1,5 +1,5 @@
 	/**
- * pprint_to_98 - prints to int
+ * print_to_98 - prints to int
  * Description: Prints alphabet in lowercase
  *@n: the integer value it receives
  * void print_to_98(int n)
@@ -8,9 +8,10 @@
 #include <stdio.h>
 void print_to_98(int n)
 {
-for (n = 0 ; n <= 98; n++ ) 
+	int i;
+for (i = 0 ; i <= n; i++ ) 
 {
-printf("%d, ",n);
+printf("%d, ",i);
 }
 printf("\n");
 }
