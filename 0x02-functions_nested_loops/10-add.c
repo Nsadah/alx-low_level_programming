@@ -9,5 +9,5 @@
 int add(int a, int b)
 {
 int r = a + b;
-printf("%d", r);
+return (r);
 }
