@@ -1,4 +1,4 @@
-	/**
+/**
  * print_to_98 - prints to int
  * Description: Prints alphabet in lowercase
  *@n: the integer value it receives
@@ -12,7 +12,7 @@ if (n < 98)
 {
 while (n < 98)
 {
-printf("%d,", n);
+printf("%d, ", n);
 n++;
 }
 }
