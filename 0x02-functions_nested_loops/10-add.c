@@ -4,7 +4,7 @@
  *@a: the integer value it receives
  *@b: the integer it rescieves
  * int add(int a, int b)
- *return r value
+ *return: r
  */
 #include "main.h"
 #include <stdio.h>
