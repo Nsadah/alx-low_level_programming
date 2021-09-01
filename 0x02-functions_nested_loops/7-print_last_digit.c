@@ -11,7 +11,7 @@ int print_last_digit(int n)
 if(int l < n)
 {
 l = n % 10;
-putchar(l);
+printf("%d\n", l);
 }
 return (l);
 }
