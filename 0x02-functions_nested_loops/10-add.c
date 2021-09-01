@@ -1,8 +1,10 @@
 /**
- * int add - prints to int
+ * add - prints to int
  * Description: Prints alphabet in lowercase
- *@n: the integer value it receives
- * void print_to_98(int n)
+ *@a: the integer value it receives
+ *@b: the integer it rescieves
+ * int add(int a, int b)
+ *return r value
  */
 #include "main.h"
 #include <stdio.h>
