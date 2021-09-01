@@ -18,7 +18,7 @@ printf("%d",(i*j));
 if(j%9 != 0 || j == 0)
 {
  
-printf(",");
+printf(", ");
 }
 }
 printf("\n");
