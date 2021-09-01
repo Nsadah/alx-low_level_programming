@@ -9,10 +9,9 @@
 int print_last_digit(int n)
 {
   int l;
-if(l < n)
-{
+
 l = n % 10;
-printf("%d\n", l);
+_putchar(l);
 }
 return (l);
 }
