@@ -10,7 +10,7 @@ int _isupper(int c)
 {
 for (c = 'A'; c <= 'Z'; c++)
 {
-if (c => 'A' || c <= 'Z')
+if (c >= 'A' || c <= 'Z')
 {
 _putchar (C);
 return (1);
