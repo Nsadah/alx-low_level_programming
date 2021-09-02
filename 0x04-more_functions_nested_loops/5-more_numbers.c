@@ -4,7 +4,7 @@
  * void more_numbers(void)
  */
 #include "main.h"
-void (void)
+void more_numbers(void)
 {
 int i, l;
 for (l = 1; l <= 10; l++)
