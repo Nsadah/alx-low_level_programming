@@ -1,6 +1,7 @@
 /**
  * print_line - Entry point
  * Description: Prints lines
+ *@n: integer value it receives
  * void print_line(int n)
  */
 #include "main.h"

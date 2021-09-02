@@ -14,7 +14,6 @@ for (i = 'A'; i <= 'Z'; i++)
 /* refer int c*/
 if (c == i)
 {
-_putchar(i);
 return (1);
 }
 }
