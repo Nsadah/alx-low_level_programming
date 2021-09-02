@@ -1,7 +1,7 @@
 /**
 * int _isupper - prints to int
 * Description: prints alphabet
-*@i: the integer value it receives
+*@c: the integer value it receives
 * Return: 0
 */
 #include "main.h"
@@ -9,6 +9,8 @@
 int _isupper(int c)
 {
 for (c = 'A'; c <= 'Z'; c++)
+{
+for (c = 'a'; c <= 'z'; c++)
 {
 if (c >= 'A' || c <= 'Z')
 {
