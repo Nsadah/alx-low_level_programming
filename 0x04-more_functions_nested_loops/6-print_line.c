@@ -7,17 +7,17 @@
 void print_line(int n)
 {
 int j;
-for (j = 1; j <= n; j++)
+for(j=1; j<=n; j++)
 {
-if(n > 0}
+if(n > 0)
 {
-_putchar ('_');
+printf("_");
 }
 else
 {
-_putchar ('\n');
+printf("\n");
 }
-_putchar ("\n");
-   }
+}
+printf("\n");
 return 0;
 }
