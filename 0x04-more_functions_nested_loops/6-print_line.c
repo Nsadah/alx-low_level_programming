@@ -3,7 +3,7 @@
  * Description: Prints numbers
  * void print_line(int n)
  */
-#include <stdio.h>
+#include "main"
 void print_line(int n)
 {
 int j;
