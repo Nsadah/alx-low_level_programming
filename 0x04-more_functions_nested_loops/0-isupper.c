@@ -1,7 +1,7 @@
 /**
-* print_last_digit - prints to int
-* Description: prints last digit
-*@n: the integer value it receives
+* int _isupper - prints to int
+* Description: prints alphabet
+*@i: the integer value it receives
 * Return: 0
 */
 #include "main.h"
