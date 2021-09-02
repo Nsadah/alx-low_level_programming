@@ -10,20 +10,22 @@ void print_diagonal(int n)
 int i;
 int j;
 for (i = n; i >= 1; i--)
-{
-for (j = n; j >= i; j--)
-{
-  
-if(n > 0)
-{
-_putchar (' ');
-_putchar ('\\');
-_putchar ('\n');
+    {
+        for (j = n; j >= i; j--)
+        {
+            printf(" ");
+
+        }
+        if(n > 0)
+        {
+            printf("\\");
+			printf("\n");
 }
 else
 {
-_putchar('\n');
+		printf("\n");
 }
-}
-}
+
+    }
+    return 0;
 }
