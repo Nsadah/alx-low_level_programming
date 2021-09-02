@@ -6,9 +6,10 @@
 #include "main.h"
 void print_line(int n)
 {
-for(j=1; j<=n; j++)
+int j;
+for (j = 1; j <= n; j++)
 {
-if(n > 0)
+if (n > 0)
 {
 _putchar ('_');
 }
@@ -16,7 +17,6 @@ else
 {
 putchar ('\n');
 }
-}        
+}
 putchar ('\n');
-return 0;
 }

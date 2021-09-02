@@ -1,10 +1,11 @@
 /**
-* int _isupper - Entry point
+* _isupper - Entry point
 * Description: prints alphabet
 *@c: the integer value it receives
 * Return: 1 if true. 0 if false.
 */
 #include "main.h"
+#include <stdio.h>
 int _isupper(int c)
 {
 int i = 'A';
