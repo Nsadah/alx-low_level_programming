@@ -1,9 +1,8 @@
 
 /**
- * print_numbers - prints to string
- * Description: Prints 1 to 9
- * void print_numbers(void)
- */
+* print_numbers - Entry point
+* Description: Prints 1 to 9
+*/
 #include "main.h"
 void print_numbers(void)
 {
