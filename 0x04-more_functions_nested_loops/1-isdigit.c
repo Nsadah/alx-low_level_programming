@@ -15,6 +15,7 @@ if (c == i)
 {
 return (1);
 }
+}
 return (0);
 }
-}
+
