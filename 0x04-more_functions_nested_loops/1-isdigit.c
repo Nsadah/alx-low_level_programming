@@ -1,6 +1,6 @@
 /**
-* _isdigit - Entry point
-* Description: prints alphabet
+* _isdigit: prints numbers
+* Description: prints numbers
 * @c: the integer value it receives
 * Return: Always(success)
 */
@@ -15,7 +15,5 @@ if (c == i)
 {
 return (1);
 }
-else
 return (0);
-
 }
