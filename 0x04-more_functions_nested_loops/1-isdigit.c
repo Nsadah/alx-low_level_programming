@@ -1,5 +1,5 @@
 /**
-* int _isupper - prints to int
+* int _isdigit - prints to int
 * Description: prints alphabet
 *@c: the integer value it receives
 * Return: 0
