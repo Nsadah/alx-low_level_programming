@@ -7,9 +7,9 @@
 void print_line(int n)
 {
 int j;
-for(j=1; j<=n; j++)
+for (j = 1; j <= n; j++)
 {
-if(n > 0)
+if (n > 0)
 {
 _putchar ('_');
 }
@@ -17,6 +17,6 @@ else
 {
 putchar ('\n');
 }
-}        
+}
 putchar ('\n');
 }
