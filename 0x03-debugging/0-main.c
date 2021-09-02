@@ -11,7 +11,7 @@
 * Return: 0
 */
 
-void positive_or_negative(void)
+int main(void)
 {
 int i;
 
