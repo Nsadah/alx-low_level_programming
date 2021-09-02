@@ -9,7 +9,6 @@
 int _isupper(int c)
 {
 int i = 'A';
-
 for (i = 'A'; i <= 'Z'; i++)
 {
 /* refer int c*/
