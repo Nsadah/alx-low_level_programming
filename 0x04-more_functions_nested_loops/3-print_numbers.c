@@ -1,4 +1,3 @@
-
 /**
 * print_numbers - Entry point
 * Description: Prints 1 to 9
