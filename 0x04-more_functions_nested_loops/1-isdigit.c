@@ -6,11 +6,11 @@
 */
 #include "main.h"
 #include <stdio.h>
-int _isupper(int c)
+int _isdigit(int c)
 {
 for (c = 0; c <= 9; c++)
 {
-if (c >= 0 || c <= 9)
+if (c >= 0)
 {
 _putchar (c);
 return (1);
