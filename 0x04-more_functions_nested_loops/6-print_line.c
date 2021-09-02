@@ -1,19 +1,17 @@
 /**
- * print_most_numbers - prints to int
+ * print_line - prints to int
  * Description: Prints numbers
- * void print_most_numbers(void)
+ * void print_line(int n)
  */
 #include <stdio.h>
-int main()
+void print_line(int n)
 {
-int i;
-int l;
-for (l = 1; l <= 10; l++)
+int j;
+for(j=1; j<= n; j++)
 {
-for (i = 0; i <= 14; i++)
-{
-putchar (i + '0');
+_putchar("_");
 }
-putchar ('\n');
-}
+_putchar("\n");
+    
+return 0;
 }
