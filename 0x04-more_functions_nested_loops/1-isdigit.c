@@ -1,10 +1,10 @@
-#include "main.h"
 /**
 * _isdigit - Entry point
 * Description: checks is a character is a digit
 * @c: the integer value it receives
 * Return: 1 if true. 0 if false.
 */
+#include "main.h"
 int _isdigit(int c)
 {
 int i;
