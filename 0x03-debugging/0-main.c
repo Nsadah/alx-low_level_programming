@@ -5,6 +5,8 @@
  * Return: 1
  */
 #include "main.h"
+#include <time.h>
+#include <stdlib>
 int positive_or_negative(void)
 {
   int i;
