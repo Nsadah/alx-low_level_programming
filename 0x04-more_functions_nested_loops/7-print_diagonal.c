@@ -4,6 +4,7 @@
  *@n: integer value it receives
  * void print_diagonal(int n)
  */
+#include "main.h"
 void print_diagonal(int n)
 {
 int i;
