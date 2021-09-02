@@ -7,7 +7,7 @@
 #include "main.h"
 #include <time.h>
 #include <stdlib>
-int positive_or_negative(void)
+void positive_or_negative(void)
 {
   int i;
   /* refer int i*/
