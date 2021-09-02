@@ -13,9 +13,16 @@ for (i = n; i >= 1; i--)
 {
 for (j = n; j >= i; j--)
 {
+if(n > 0)
+{
 _putchar (' ');
 }
 _putchar ('\\');
 _putchar ('\n');
+}
+}
+else
+{
+_putchar('\n');
 }
 }
