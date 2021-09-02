@@ -1,9 +1,21 @@
-#include<stdio.h>
-void print_line(int n)
+/**
+ * print_diagonal - Entry point
+ * Description: Prints lines
+ *@n: integer value it receives
+ * void print_diagonal(int n)
+ */
+void print_diagonal(int n)
 {
-
-  int i=0;
-  for (i =0; I <=100   {
-        printf("_");
-    }
+int i;
+int j;
+for (i = l; i >= 1; i--)
+{
+for (j = l; j >= i; j--)
+{
+_putchar (' ');
+}
+_putchar ('\\');
+_putchar ('\n');
+}
+return (0);
 }
