@@ -6,7 +6,7 @@ carrie@ubuntu:/debugging$ cat main.c
 * Return: 0
 */
 
-int main()
+int main(void)
 {
 int i;
 
