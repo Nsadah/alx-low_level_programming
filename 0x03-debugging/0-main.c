@@ -11,8 +11,7 @@ void positive_or_negative(void)
 {
   int i;
   /* refer int i*/
-srand(time(0));
-i = rand() - RAND_MAX / 2;
+
 /* your code goes there */
 if (i > 0)
 {
