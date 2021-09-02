@@ -7,8 +7,8 @@
 #include "main.h"
 int _isdigit(int c)
 {
-int i = 0;
-for (i = 0; i <= 9'; i++)
+int i;
+for (i = 0; i <= 9; i++)
 {
 /* refer int c*/
 if (c == i)
