@@ -8,9 +8,10 @@
 #include <stdio.h>
 int _isupper(int c)
 {
-int i;
-for (i = 'A'; i <= 'Z'; c++)
+int i = 'A';
+for (i = 'A'; i <= 'Z'; I++)
 {
+/* refer int c*/
 if (c == i)
 {
 return (1);
