@@ -1,8 +1,8 @@
 /**
-* int _isupper - prints to int
+* int _isupper - Entry point
 * Description: prints alphabet
 *@c: the integer value it receives
-* Return: 0
+* Return: 1 if true. 0 if false.
 */
 #include "main.h"
 #include <stdio.h>
