@@ -1,23 +1,16 @@
 /**
- * print_line - prints to int
- * Description: Prints line
- * void print_line(int n)
+ * print_alphabet - prints to string
+ * Description: Prints alphabet in lowercase
+ * void print_alphabet(void)
  */
 #include "main.h"
 void print_line(int n)
 {
-int j;
-for(j = 1; j< = n; j++)
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-if(n > 0)
-{
-printf('_');
-}
-else
-{
-_putchar('\n');
-}
+_putchar(ch);
 }
 _putchar('\n');
-return 0;
+return;
 }
