@@ -1,11 +1,10 @@
-
 #include "main.h"
 /**
- * _isdigit - Entry point
- * Description: checks is a character lowercase
- * @c: the integer value it receives
- * Return: 1 if true. 0 if false.
- */
+* _isdigit - Entry point
+* Description: checks is a character lowercase
+* @c: the integer value it receives
+* Return: 1 if true. 0 if false.
+*/
 int _isdigit(int c)
 {
 int i;
