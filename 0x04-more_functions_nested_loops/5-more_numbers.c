@@ -11,7 +11,7 @@ for (l = 1; l <= 10; l++)
 {
 for (i = 0; i <= 14; i++)
 {
-_putchar (i);
+_putchar ('0' + i);
 }
 _putchar ('\n');
 }
