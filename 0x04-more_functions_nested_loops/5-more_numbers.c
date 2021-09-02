@@ -1,10 +1,10 @@
 /**
- * print_most_numbers - prints to int
+ * more_numbers - prints to int
  * Description: Prints numbers
- *void more_numbers(void)
+ * void more_numbers(void)
  */
 #include "main.h"
-void more_numbers(void)
+void (void)
 {
 int i, l;
 for (l = 1; l <= 10; l++)
