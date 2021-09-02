@@ -1,6 +1,7 @@
 /**
  * print_numbers - prints to int
  * Description: Prints numbers 1 - 9
+ * void print_numbers(void)
  */
 #include "main.h"
 void print_numbers(void)
