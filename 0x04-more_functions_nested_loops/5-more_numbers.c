@@ -1,5 +1,5 @@
 /**
-* more_numbers - prints to int
+* more_numbers - Entry point
 * Description: Prints numbers
 * void more_numbers(void)
 */
