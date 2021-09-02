@@ -8,16 +8,15 @@
 #include <stdio.h>
 int _isupper(int c)
 {
-for (c = 'A'; c <= 'Z'; c++)
+int i;
+for (i = 'A'; i <= 'Z'; c++)
 {
-if (c >= 'A' || c <= 'Z')
+if (c == i)
 {
-_putchar (c);
 return (1);
 }
 else
 {
-_putchar(c);
 return (0);
 }
 }
