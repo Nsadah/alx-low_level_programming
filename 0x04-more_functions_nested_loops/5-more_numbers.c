@@ -1,17 +1,18 @@
 /**
- * more_numbers - prints to int
- * Description: Prints numbers
- * void more_numbers(void)
- */
+* more_numbers - prints to int
+* Description: Prints numbers
+* void more_numbers(void)
+*/
 #include "main.h"
 void more_numbers(void)
 {
-int i, l;
+int n;
+int l;
 for (l = 1; l <= 10; l++)
 {
-for (i = 0; i <= 14; i++)
+for (n = 0; n <= 14; n++)
 {
-_putchar ('0' + i);
+_putchar ('0' + n);
 }
 _putchar ('\n');
 }
