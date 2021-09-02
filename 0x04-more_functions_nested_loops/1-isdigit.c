@@ -1,11 +1,11 @@
 /**
-* int 1-isdigit - Entry point
+* _isdigit- Entry point
 * Description: prints alphabet
 *@c: the integer value it receives
 * Return: 1 if true. 0 if false.
 */
 #include "main.h"
-int 1-isdigit(int c)
+int _isdigit(int c)
 {
 int i;
 for (i = 0; i <= 9; i++)
