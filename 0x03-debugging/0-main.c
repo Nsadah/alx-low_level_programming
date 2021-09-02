@@ -1,34 +1,17 @@
-/**
- * print_sign - prints to int
- * Description: int n is a variable
- *@n: the integer value it receives
- * Return: 1
- */
+carrie@ubuntu:/debugging$ cat main.c
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - prints to string
- * Description: Prints positive, negative or zero
- * Return: 0
- */
-int main(void)
+* main - tests function that prints if integer is positive or negative
+* Return: 0
+*/
+
+void positive_or_negative(int i)
 {
 int i;
 
-/* your code goes there */
-if (i > 0)
-{
-printf("%d is positive\n", i);
-}
-else if (i == 0)
-{
-printf("%d is zero\n", i);
-}
-else
-{
-printf("%d is negative\n", i);
-}
+i = 98;
+positive_or_negative(i);
+
 return (0);
 }
