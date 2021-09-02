@@ -3,6 +3,7 @@
 * Description: prints numbers
 * @c: the integer value it receives
 * Return: Always(success)
+* int _isdigit(int c)
 */
 #include "main.h"
 int _isdigit(int c)
