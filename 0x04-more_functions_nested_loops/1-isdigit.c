@@ -2,7 +2,7 @@
 * _isdigit - Entry point
 * Description: prints alphabet
 * @c: the integer value it receives
-* int _isdigit(int c)
+* Return: Always(success)
 */
 #include "main.h"
 int _isdigit(int c)
