@@ -15,13 +15,13 @@ for (j = n; j >= i; j--)
 {
 _putchar (' ');
 }
-if (n > 0)
+if (n <= 0)
 {
-_putchar ('\\');
 _putchar ('\n');
 }
 else
 {
+_putchar ('\\');
 _putchar ('\n');
 }
 }
