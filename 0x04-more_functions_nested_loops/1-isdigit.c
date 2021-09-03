@@ -7,11 +7,10 @@
 #include "main.h"
 int _isdigit(int c)
 {
-int i = 0;
-for (i = 0; i <= 9; i++)
+for (c = 0; c <= 9; c++)
 {
 /* refer int c*/
-if (c == i)
+if (c >= '0' && c <= '9')
 {
 return (1);
 }
