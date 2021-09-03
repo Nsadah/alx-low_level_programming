@@ -7,9 +7,9 @@
 void print_square(int size)
 {
 int i, w;
-for(size = 1; size <= w; i++)
+for(size = 1; size <= w; size++)
 {
-for(i = 1; j <= w; j++)
+for(i = 1; i <= w; i++)
 {
 _putchar('#');
 }
