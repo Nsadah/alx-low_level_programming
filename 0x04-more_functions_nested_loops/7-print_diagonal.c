@@ -19,7 +19,7 @@ if (n <= 0)
 {
 putchar ('\n');
 }
-else
+else (n > 0)
 {
 putchar ('\\');
 
