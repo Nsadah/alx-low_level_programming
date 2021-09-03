@@ -1,4 +1,3 @@
-#include "main.h"
 /**
 * largest number - prints the largest of theree numbers
 *@a: first number
@@ -6,6 +5,7 @@
 @c: third number
 *Return: largest number
 */
+#include "main.h"
 int largest_number(int a, int b, int c)
 {
 int largest;
