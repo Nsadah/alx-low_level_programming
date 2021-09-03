@@ -1,5 +1,5 @@
 /**
-* largest number - prints the largest of theree numbers
+*largest_number - prints the largest of theree numbers
 *@a: first number
 @b: sceond number
 @c: third number
@@ -9,7 +9,7 @@
 int largest_number(int a, int b, int c)
 {
 int largest;
-if (a > b && a> c)
+if (a > b && a > c)
 {
 largest = a;
 }
