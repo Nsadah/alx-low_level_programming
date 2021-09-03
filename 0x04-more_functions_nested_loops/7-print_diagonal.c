@@ -13,10 +13,16 @@ for (i = n; i >= 1; i--)
 {
 for (j = n; j >= i; j--)
 {
-_putchar (' ');
+putchar (' ');
 }
-_putchar ('\\');
-_putchar ('\n');
+if (n <= 0)
+{
+putchar ('\n');
 }
-return (0);
+else
+{
+putchar ('\\');
+}
+putchar ('\n');
+}
 }
