@@ -13,16 +13,16 @@ for (i = n; i >= 1; i--)
 {
 for (j = n; j >= i; j--)
 {
-printf(" ");
+_putchar (' ');
 }
-if(n > 0)
+if (n > 0)
 {
-printf("\\");
-printf("\n");
+_putchar ('\\');
+_putchar ('\n');
 }
 else
 {
-printf("\n");
+_putchar ('\n');
 }
 }
 }
