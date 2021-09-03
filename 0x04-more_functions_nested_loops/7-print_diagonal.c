@@ -13,16 +13,17 @@ for (i = n; i >= 1; i--)
 {
 for (j = n; j >= i; j--)
 {
-_putchar (' ');
+putchar (' ');
 }
 if (n <= 0)
 {
-_putchar ('\n');
+putchar ('\n');
 }
 else
 {
-_putchar ('\\');
+putchar ('\\');
+
 }
-_putchar ('\n');
+putchar ('\n');
 }
 }
