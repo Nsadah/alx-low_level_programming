@@ -19,10 +19,9 @@ if (n <= 0)
 {
 putchar ('\n');
 }
-else (n > 0)
+else
 {
 putchar ('\\');
-
 }
 putchar ('\n');
 }
