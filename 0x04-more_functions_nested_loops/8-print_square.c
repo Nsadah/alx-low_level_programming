@@ -1,4 +1,4 @@
- /**
+/**
 * print_square - Entry point
 * Description: prints numbers
 *@size: the integer value it receives
@@ -15,5 +15,4 @@ _putchar("#");
 }
 _putchar("\n");
 }
-return (0);
 }
