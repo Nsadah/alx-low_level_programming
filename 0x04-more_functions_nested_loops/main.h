@@ -1,6 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
-
 #include <stdio.h>
 #include <unistd.h>
 /**
@@ -14,6 +11,9 @@ int _putchar(char c)
 {
   return (write (1, &c, 1));
 }
+
+#ifndef MAIN_H
+#define MAIN_H
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
