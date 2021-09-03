@@ -11,8 +11,8 @@ for(size = 1; size <= w; i++)
 {
 for(i = 1; j <= w; j++)
 {
-_putchar("#");
+_putchar('#');
 }
-_putchar("\n");
+_putchar('\n');
 }
 }
