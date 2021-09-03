@@ -5,7 +5,7 @@
 * Return: 0
 */
 #include <stdio.h>
-int main ()
+int FizzBuzz(void)
 {
 int x;
 for (x=1; x<=100; x++)
@@ -27,4 +27,10 @@ printf("%d ",x);
 }
 }
 printf("\n");
+}
+
+int main()
+{
+ int y;
+ int y = FizzBuzz();
 }
