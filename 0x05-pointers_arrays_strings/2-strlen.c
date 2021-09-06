@@ -1,8 +1,9 @@
 /**
-* int _strlen - prints to int
-* Description: Returns length of string
+* _strlen - prints to int
+* Description: Prints length of string
 * @s: the value it receives
 * int _strlen(char *s)
+* Return: Always (Success)
 */
 #include "main.h"
 int _strlen(char *s)
