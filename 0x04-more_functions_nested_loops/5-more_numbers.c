@@ -6,14 +6,22 @@
 #include "main.h"
 void more_numbers(void)
 {
-int n;
-int l;
-for (l = 1; l <= 10; l++)
+char c;
+char n;
+int i;
+while (i < 10)
 {
 for (n = 0; n <= 14; n++)
 {
-_putchar ('0' + n);
+c = n;
+if (n > 9)
+{
+_putchar ('1');
+c = n % 10;
+}
+_putchar ('0' + c);
 }
 _putchar ('\n');
+i++;
 }
 }
