@@ -11,6 +11,6 @@ void _puts(char *str)
 {
 char s;
 s = *str;
-while(s != '\0')
-printf("%c",s++);
+while(*str != '\0')
+printf("%c",*str++);
 }
