@@ -5,6 +5,7 @@
 * void _puts(char *str)
 * Return: Always (Success)
 */
+#include <stdio.h>
 #include "main.h"
 void _puts(char *str)
 {
