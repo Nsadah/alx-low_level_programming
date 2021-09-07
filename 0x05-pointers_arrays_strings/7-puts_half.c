@@ -1,16 +1,24 @@
 /**
-* _puts - prints to string
+* puts_half - prints to string
 * Description: Prints to  string
 * @str: the value it receives
-* void _puts(char *str)
+* void puts_half(char *str)
 * Return: Always (Success)
 */
 #include <stdio.h>
 #include "main.h"
-void _puts(char *str)
+void puts_half(char *str)
 {
-char s;
-s = *str;
-while(*str != '\0')
-printf("%c",*str++);
+  int n = strlen(str);
+  char* suffix = str + n;
+
+  while (0 < n && s[--n] != '/');
+  if (s[n] == '/') 
+{
+    suffix = s + n + 1;
+    s[n] = '\0';
+  }
+
+  printf("\n");
+  return 0;
 }
