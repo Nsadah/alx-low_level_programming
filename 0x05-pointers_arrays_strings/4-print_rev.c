@@ -12,8 +12,8 @@ int string_length(char*);
 void print_rev(char *s)
 {
   int n = strlen(s);
-
-  for (int i = 0; i < n / 2; i++)
+int i;
+  for (i = 0; i < n / 2; i++)
   {
     char ch = s[i];
     s[i] = s[n - i - 1];
