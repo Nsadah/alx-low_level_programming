@@ -6,18 +6,19 @@
 * Return: Always (Success)
 */
 #include <stdio.h>
+#include <string.h>
 #include "main.h" 
 void rev_string(char *s)
 {
-int length = strlen(str);
+int length = strlen(s);
 int i;
 for (i = length - 1; i >= 0; i--)
 {
-if (str[i] == ' ')
+if (s[i] == ' ')
 {
-str[i] = '\0';
-printf("%s ", &(str[i]) + 1);
+s[i] = '\0';
+printf("%s ", &(s[i]) + 1);
 }
 }
-printf("%s", str);
+printf("%s", s);
 }
