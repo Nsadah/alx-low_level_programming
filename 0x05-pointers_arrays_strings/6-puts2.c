@@ -10,8 +10,7 @@
 #include "main.h"
 void _puts2(char *str)
 {
-char s;
-int i;
+long unsigned int i;
 for(i = 0; i < strlen(str); i +=2)
 {
 printf("%c", str[i]);
