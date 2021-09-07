@@ -11,26 +11,15 @@
 int string_length(char*); 
 void print_rev(char *s)
 {
-int length, c;
-char *begin, *end, temp;
-length = string_length(s);
-begin  = s;
-end    = s;
-for (c = 0; c < length - 1; c++)
-end++;
-for (c = 0; c < length/2; c++)
-{        
-temp   = *end;
-*end   = *begin;
-*begin = temp;
-begin++;
-end--;
-}
-}
-int string_length(char *pointer)
+int len, i, j;
+char ch;
+for(len=0; str[len]!='\0'; len++);
+i = len - 1;
+for(int j=0; j < len/2; j++, i--)
 {
-int c = 0;
-while( *(pointer + c) != '\0' )
-c++;
-return c;
+ch = s[i];
+s[i] = s[j];
+s[j] = ch;
+}
+printf("\n");
 }
