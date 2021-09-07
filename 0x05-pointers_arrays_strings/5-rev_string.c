@@ -9,23 +9,15 @@
 #include "main.h" 
 void rev_string(char *s)
 {
- int length = strlen(str);
- 
-    // Traverse string from end
-    int i;
-    for (i = length - 1; i >= 0; i--) {
-        if (str[i] == ' ') {
- 
-            // putting the NULL character at the
-            // position of space characters for
-            // next iteration.        
-            str[i] = '\0';
- 
-            // Start from next character    
-            printf("%s ", &(str[i]) + 1);
-        }
-    }
- 
-    // printing the last word
-    printf("%s", str);
+int length = strlen(str);
+int i;
+for (i = length - 1; i >= 0; i--)
+{
+if (str[i] == ' ')
+{
+str[i] = '\0';
+printf("%s ", &(str[i]) + 1);
+}
+}
+printf("%s", str);
 }
