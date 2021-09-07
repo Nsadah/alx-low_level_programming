@@ -9,11 +9,27 @@
 #include "main.h" 
 void rev_string(char *s)
 {
-int len;
-while ((len = getline(s)) > 0)
-{
-if (len > 0) 
-reverse(s, len);
-printf("%s\n", s);
-}
+int i = str.length() - 1;
+    int start, end = i + 1;
+    string result = "";
+     
+    while(i >= 0)
+    {
+        if(str[i] == ' ')
+        {
+            start = i + 1;
+            while(start != end)
+                result += str[start++];
+             
+            result += ' ';
+             
+            end = i;
+        }
+        i--;
+    }
+    start = 0;
+    while(start != end)
+        result += str[start++];
+     
+    return result;
 }
