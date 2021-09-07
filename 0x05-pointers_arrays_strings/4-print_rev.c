@@ -12,7 +12,7 @@ int string_length(char*);
 void print_rev(char *s)
 {
 int length, c;
-char *begin, *end, temp, *pointer;
+char *begin, *end, temp, pointer;
 length = string_length(s);
 begin  = s;
 end    = s;
