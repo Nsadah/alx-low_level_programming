@@ -5,28 +5,20 @@
 * void _puts(char *str)
 * Return: Always (Success)
 */
-#include<stdio.h>
+#include <stdio.h>
+#include <string.h>
 #include "main.h" 
-int string_length(char*); 
-void rev_string(char *s) 
+void rev_string(char *s)
 {
-int i = str.length() - 1;
-int start, end = i + 1;
-string result = "";
-while(i >= 0)
+int length = strlen(s);
+int i;
+for (i = length - 1; i >= 0; i--)
 {
-if (str[i] == ' ')
+if (s[i] == ' ') 
 {
-start = i + 1;
-while(start != end)
-result += str[start++];
-result += ' ';
-end = i;
+str[i] = '\0';
+printf("%s ", &(s[i]) + 1);
 }
-i--;
 }
-start = 0;
-while(start != end)
-result += str[start++];
-return result;
+printf("%s", s);
 }
