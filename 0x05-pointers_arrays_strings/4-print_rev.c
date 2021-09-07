@@ -26,10 +26,9 @@ temp   = *end;
 begin++;
 end--;
 }
-int c = 0;
+c = 0;
 while( *(pointer + c) != '\0' )
-{c++;
+c++;
 return c;
-}
 }
 }
