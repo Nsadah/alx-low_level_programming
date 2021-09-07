@@ -10,7 +10,9 @@
 void _puts2(char *str)
 {
 char s;
-s = *str;
-while(*str != '\0')
-printf("%c",*str++);
+int i;
+for(i = 0; i < strlen(str); i+=2)
+{
+putchar(str[i]);
+s[i/2]=str[i];
 }
