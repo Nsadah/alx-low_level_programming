@@ -10,30 +10,12 @@
 #include "main.h"
 void rev_string(char *s)
 {
-char rev;
-char *sptr = s;
-char *rptr = rev; 
-int i = -1;
-while(*sptr)
+int n = strlen(s);
+int i;      
+for (i = 0; i < n / 2; i++)
 {
-sptr++;
-i++;
-}
-while(i >= 0)
-{
-        sptr--; 
-        *rptr = *sptr;
-        rptr++;
-        i--;
-    }
-    
-    *rptr = '\0'; 
-    rptr = rev; 
-
-    while(*rptr)
-    {
-        *sptr = *rptr;
-        sptr++;
-        rptr++;
-    }
+char ch = s[i];
+    s[i] = s[n - i - 1];
+    s[n - i - 1] = ch;
+  }
 }
