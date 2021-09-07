@@ -10,17 +10,16 @@
 #include <string.h>
 void print_rev(char *s)
 {
-char tmp;
-int l, lind, rind,i;
-l = strlen(s);
-lind = 0;
-rind = l-1;
-for (i = lind; i < rind; i++)
+char r;
+int begin, end, count = 0;
+while (s[count] != '\0')
+count++;
+end = count - 1;
+for (begin = 0; begin < count; begin++)
 {
-tmp = s[i];
-s[i] = s[rind];
-s[rind] = tmp;
-rind--;
+r[begin] = s[end];
+end--;
 }
+r[begin] = '\0';
 printf("\n");
 }
