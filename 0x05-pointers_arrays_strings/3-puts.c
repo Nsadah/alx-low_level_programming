@@ -9,8 +9,6 @@
 #include "main.h"
 void _puts(char *str)
 {
-char s;
-s = *str;
 while (*str != '\0')
 printf ("%c",*str++);
 }
