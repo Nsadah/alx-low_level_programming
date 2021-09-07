@@ -11,7 +11,7 @@
 void puts_half(char *str)
 {
   int n = strlen(str);
-  char* suffix = str + n;
+  char suffix;
 
   while (0 < n && str[--n] != '/');
   if (str[n] == '/') 
