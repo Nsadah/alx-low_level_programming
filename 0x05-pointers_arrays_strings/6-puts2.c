@@ -6,6 +6,7 @@
 * Return: Always (Success)
 */
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 void _puts2(char *str)
 {
