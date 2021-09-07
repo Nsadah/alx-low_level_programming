@@ -8,14 +8,33 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
+int string_length(char*);
 void print_rev(char *s)
 {
-char c;
-if (begin >= end)
-return;
-c = *(s+begin);
-   *(s+begin) = *(s+end);
-   *(s+end)   = c;
+int length, c;
+char *begin, *end, temp;
+length = string_length(s);
+begin  = s;
+end    = s;
+for (c = 0; c < length - 1; c++)
+end++;
+for (c = 0; c < length/2; c++)
+{        
+temp   = *end;
+*end   = *begin;
+*begin = temp;
+begin++;
+end--;
+}
 
-   reverse(s, ++begin, --end);
+}
+ 
+int string_length(char *pointer)
+{
+   int c = 0;
+ while( *(pointer + c) != '\0' )
+    c++;
+   
+ 
+   return c;
 }
