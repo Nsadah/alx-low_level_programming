@@ -25,7 +25,5 @@ temp   = *end;
 begin++;
 end--;
 }
-c = 0;
-while( (*pointer + *c) != '\0' )
-c++;
+
 }
