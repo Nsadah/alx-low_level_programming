@@ -1,8 +1,8 @@
 /**
-* _puts - prints to string
+* _puts2 - prints to string
 * Description: Prints to  string
 * @str: the value it receives
-* void _puts(char *str)
+* void _puts2(char *str)
 * Return: Always (Success)
 */
 #include <stdio.h>
