@@ -10,18 +10,11 @@
 #include "main.h"
 void rev_string(char *s)
 {
-char rev;
-int i, j, count = 0;
-scanf("%s", s);
-while (s[count] != '\0')
+int n = strlen(s);
+for (int i = 0; i < n / 2; i++)
 {
-count++;
+char ch = s[i];
+s[i] = s[n - i - 1];
+s[n - i - 1] = ch;
 }
-j = count - 1;
-for (i = 0; i < count; i++)
-{
-rev[i] = s[j];
-j--;
-}
-printf("\n");
 }
