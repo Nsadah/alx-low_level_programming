@@ -10,8 +10,8 @@
 #include "main.h"
 void rev_string(char *s)
 {
-char rev[100];
-char *sptr = str;
+char rev;
+char *sptr = s;
 char *rptr = rev; 
 int i = -1;
 while(*sptr)
