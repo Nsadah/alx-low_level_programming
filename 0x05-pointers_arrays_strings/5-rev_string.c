@@ -11,12 +11,12 @@
 void rev_string(char *s)
 {
 char r;
-    char *beg = s;
-    char *end;
+    char beg = s;
+    char end;
     int i=-1;
     r = *end;
 
-    while(*beg)
+    while (*beg)
     {
      beg++;
      i++;
