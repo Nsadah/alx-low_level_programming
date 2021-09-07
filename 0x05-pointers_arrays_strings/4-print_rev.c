@@ -10,12 +10,17 @@
 #include <string.h>
 void print_rev(char *s)
 {
-int n = strlen(s);
-int i;
-for (i = 0; i < n / 2; i++)
+char , tmp;
+int l, lind, rind,i;
+l = strlen(s);
+lind = 0;
+rind = l-1;
+for (i = lind; i < rind; i++)
 {
-char ch = s[i];
-s[i] = s[n - i - 1];
-s[n - i - 1] = ch;
+tmp = str1[i];
+str1[i] = str1[rind];
+str1[rind] = tmp;
+rind--;
 }
+printf("\n")
 }
