@@ -10,16 +10,12 @@
 #include <string.h>
 void print_rev(char *s)
 {
-char r;
-int begin, end, count = 0;
-while (s[count] != '\0')
-count++;
-end = count - 1;
-for (begin = 0; begin < count; begin++)
-{
-r[begin] = s[end];
-end--;
-}
-r[begin] = '\0';
-printf("\n");
+char c;
+if (begin >= end)
+return;
+c = *(s+begin);
+   *(s+begin) = *(s+end);
+   *(s+end)   = c;
+
+   reverse(s, ++begin, --end);
 }
