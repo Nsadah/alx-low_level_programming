@@ -10,32 +10,18 @@
 #include "main.h"
 void rev_string(char *s)
 {
-char reverse;
-int len, i, index, wordStart, wordEnd;
-len   = strlen(str);
-index = 0;
-wordStart = len - 1;
-wordEnd   = len - 1;
-while(wordStart > 0)
+char rev;
+int i, j, count = 0;
+scanf("%s", s);
+while (s[count] != '\0')
 {
-if(str[wordStart] == ' ')
+count++;
+}
+j = count - 1;
+for (i = 0; i < count; i++)
 {
-i = wordStart + 1;
-while(i <= wordEnd)
-{
-reverse[index] = str[i];
-i++;
-index++;
+rev[i] = str[j];
+j--;
 }
-reverse[index++] = ' ';
-wordEnd = wordStart - 1;
-}
-wordStart--;
-}
-for(i=0; i<=wordEnd; i++)
-{
-reverse[index] = str[i];
-index++;
-}
-reverse[index] = '\0'; 
+printf("\n", rev);
 }
