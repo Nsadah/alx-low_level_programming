@@ -10,26 +10,23 @@
 int string_length(char*); 
 void rev_string(char *s) 
 {
-int length, c;
-char *begin, *end, temp;
-length = string_length(s);
-begin  = s;
-end    = s;
-for (c = 0; c < length - 1; c++)
-end++;
-for (c = 0; c < length/2; c++)
-{        
-temp   = *end;
-*end   = *begin;
-*begin = temp;
-begin++;
-end--;
-}
-}
-int string_length(char *pointer)
+int i = str.length() - 1;
+int start, end = i + 1;
+string result = "";
+while(i >= 0)
 {
-int c = 0;
-while( *(pointer + c) != '\0' )
-c++;
-return c;
+if (str[i] == ' ')
+{
+start = i + 1;
+while(start != end)
+result += str[start++];
+result += ' ';
+end = i;
+}
+i--;
+}
+start = 0;
+while(start != end)
+result += str[start++];
+return result;
 }
