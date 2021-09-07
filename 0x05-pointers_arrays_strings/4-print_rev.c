@@ -13,9 +13,9 @@ void print_rev(char *s)
 {
 int len, i, j;
 char ch;
-for(len=0; str[len]!='\0'; len++);
+for (len=0; s[len]!='\0'; len++);
 i = len - 1;
-for(int j=0; j < len/2; j++, i--)
+for (j=0; j < len/2; j++, i--)
 {
 ch = s[i];
 s[i] = s[j];
