@@ -7,18 +7,35 @@
 */
 #include <stdio.h>
 #include <string.h>
-#include "main.h" 
+#include "main.h"
 void rev_string(char *s)
 {
-int length = strlen(s);
-int i;
-for (i = length - 1; i >= 0; i--)
+char reverse;
+int len, i, index, wordStart, wordEnd;
+len   = strlen(str);
+index = 0;
+wordStart = len - 1;
+wordEnd   = len - 1;
+while(wordStart > 0)
 {
-if (s[i] == ' ')
+if(str[wordStart] == ' ')
 {
-s[i] = '\0';
-printf("%s ", &(s[i]) + 1);
+i = wordStart + 1;
+while(i <= wordEnd)
+{
+reverse[index] = str[i];
+i++;
+index++;
 }
+reverse[index++] = ' ';
+wordEnd = wordStart - 1;
 }
-printf("%s", s);
+wordStart--;
+}
+for(i=0; i<=wordEnd; i++)
+{
+reverse[index] = str[i];
+index++;
+}
+reverse[index] = '\0'; 
 }
