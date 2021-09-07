@@ -22,5 +22,5 @@ s[i] = s[rind];
 s[rind] = tmp;
 rind--;
 }
-printf("\n")
+printf("\n");
 }
