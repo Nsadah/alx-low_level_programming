@@ -9,22 +9,12 @@
 #include <stdio.h>
 void print_rev(char *s)
 {
-char r;
-char *beg = s;
-char *end;
-int i = -1;
-r = *end;
-while (*beg)
+int n = strlen(s);
+int i;
+for (i = 0; i < n / 2; i++)
 {
-beg++;
-i++;
-}
-while (i >= 0)
-{
-beg--;
-*end = *beg;
-end++;
---i;
-}
-*end = '\0';
+char ch = s[i];
+s[i] = s[n - i - 1];
+s[n - i - 1] = ch;
+
 }
