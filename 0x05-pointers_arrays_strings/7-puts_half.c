@@ -10,7 +10,7 @@
 #include "main.h"
 void puts_half(char *str)
 {
-char left, right;
+char leftHalf, rightHalf;
 int length, mid, i, k;
 length = strlen(str);
 mid = length/2;
