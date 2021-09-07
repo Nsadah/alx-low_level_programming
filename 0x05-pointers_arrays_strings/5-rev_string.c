@@ -6,19 +6,14 @@
 * Return: Always (Success)
 */
 #include <stdio.h>
-#include <string.h>
 #include "main.h" 
 void rev_string(char *s)
 {
-int length = strlen(s);
-int i;
-for (i = length - 1; i >= 0; i--)
+int len;
+while ((len = getline(s)) > 0)
 {
-if (s[i] == ' ') 
-{
-s[i] = '\0';
-printf("%s ", &(s[i]) + 1);
+if (len > 0) 
+reverse(s, len);
+printf("%s\n", s);
 }
-}
-printf("%s", s);
 }
