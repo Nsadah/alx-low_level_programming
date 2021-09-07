@@ -10,15 +10,20 @@
 #include "main.h"
 void puts_half(char *str)
 {
-  int n = strlen(str);
-  char suffix;
-
-  while (0 < n && str[--n] != '/');
-  if (str[n] == '/') 
+char left, right;
+int length, mid, i, k;
+length = strlen(str);
+mid = length/2;
+for(i = 0; i < mid; i++) 
 {
-    suffix = str + n + 1;
-    str[n] = '\0';
-  }
+leftHalf[i]= str[i];
+}
+leftHalf[i] = '\0';
+for(i = mid, k = 0; i <= length; i++, k++) 
+{
+rightHalf[k]= str[i];
+}
+printf("\n");
 
-  printf("\n");
+}
 }
