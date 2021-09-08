@@ -1,11 +1,17 @@
 /**
-* reset_to_98 - prints to int
-* Description: Updates value to 98
-*@n: the value it receives
-* void reset_to_98(int *n)
+* _strcat - prints to string
+* Description: Prints to string
+*@dest: the value it receives
+*@src: the value it receives
+* char *_strcat(char *dest, char *src)
+* Return: Always (Success)
 */
 #include "main.h"
-void reset_to_98(int *n)
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+char *_strcat(char *dest, char *src)
 {
-*n = 98;
+strcat(dest, src);
+return;
 }
