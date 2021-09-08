@@ -1,11 +1,17 @@
 /**
-* reset_to_98 - prints to int
-* Description: Updates value to 98
+* _strncpy - prints to string
+* Description: prints to string
+*@dest: the value it receives
+*@src: the value it receives
 *@n: the value it receives
-* void reset_to_98(int *n)
+*char *_strncpy(char *dest, char *src, int n)
 */
 #include "main.h"
-void reset_to_98(int *n)
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+char *_strncpy(char *dest, char *src, int n)
 {
-*n = 98;
+for(n=0;src[n]=dest[n];n++);
+src[n]='\0';	
 }
