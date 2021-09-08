@@ -1,11 +1,24 @@
 /**
-* reset_to_98 - prints to int
-* Description: Updates value to 98
-*@n: the value it receives
-* void reset_to_98(int *n)
+* _strcmp - prints to string
+* Description: compares two strings
+*@s1: the value it receives
+*@s2: the value it receives
+*int _strcmp(char *s1, char *s2)
 */
-#include "main.h"
-void reset_to_98(int *n)
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int _strcmp(char *s1, char *s2)
 {
-*n = 98;
+while (*s1 == *s2)
+{
+if (*s1 == '\0' || *s2 == '\0')
+break;
+s1++;
+s2++;
+}
+if (*s1 == '\0' && *s2 == '\0')
+return 0;
+else{
+return -1;
 }
