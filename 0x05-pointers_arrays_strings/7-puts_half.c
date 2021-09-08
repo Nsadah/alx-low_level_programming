@@ -23,6 +23,6 @@ for(i = mid, k = 0; i <= length; i++, k++)
 {
 rightHalf[k]= str[i];
 }
-printf("%s", rightHalf);
+printf("%c", rightHalf);
 printf("\n");
 }
