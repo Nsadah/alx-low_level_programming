@@ -1,11 +1,23 @@
 /**
-* reset_to_98 - prints to int
-* Description: Updates value to 98
+* reverse_array - prints to int
+* Description: prints reverse of an array
+*@a: the value it receives
 *@n: the value it receives
-* void reset_to_98(int *n)
+*void reverse_array(int *a, int n)
 */
 #include "main.h"
-void reset_to_98(int *n)
+void reverse_array(int *a, int n)
 {
-*n = 98;
+int *left = a;
+int *right;
+right = &a[n - 1];
+left = a;
+while(left < right)
+{
+*left ^= *right;
+*right   ^= *left;
+*left ^= *right;
+left++;
+right--;
+}
 }
