@@ -1,10 +1,13 @@
 /**
-* reset_to_98 - prints to int
-* Description: Updates value to 98
-*@n: the value it receives
-* void reset_to_98(int *n)
+* cap_string- prints to int
+* Description: Capitalizes every word in a string
+*@str: the value it receives
+* char *cap_string(char *str)
 */
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
 char *cap_string(char *str)
 {
 int index = 0;
