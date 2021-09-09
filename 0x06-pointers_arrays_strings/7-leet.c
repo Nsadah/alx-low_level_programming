@@ -1,11 +1,25 @@
 /**
-* reset_to_98 - prints to int
-* Description: Updates value to 98
-*@n: the value it receives
-* void reset_to_98(int *n)
+* leet - prints to int
+* Description: composes music
+*@str: the value it receives
+* 
+char *leet(char *str)
 */
 #include "main.h"
-void reset_to_98(int *n)
+#include <stdio.h>
+char *leet(char *str)
 {
-*n = 98;
+int indx1 = 0, indx2;
+char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+while (str[indx1])
+{
+for (indx2 = 0; indx2 <= 7; indx2++)
+{
+if (str[indx1] == leet[indx2] ||
+str[indx1] - 32 == leet[indx2])
+str[indx1] = indx2 + '0';
+}
+indx1++;
+}
+return (str);
 }
