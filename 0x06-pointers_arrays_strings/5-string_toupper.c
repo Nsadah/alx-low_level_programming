@@ -1,11 +1,12 @@
 /**
-* reset_to_98 - prints to int
+* string_toupper- prints to string
 * Description: Updates value to 98
 *@n: the value it receives
-* void reset_to_98(int *n)
+*char *string_toupper(char *s)
 */
 #include "main.h"
-void reset_to_98(int *n)
+#include <stdio.h>
+char *string_toupper(char *s)
 {
-*n = 98;
+strupr(s);
 }

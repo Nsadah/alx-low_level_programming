@@ -1,10 +1,12 @@
 /**
-* reset_to_98 - prints to int
-* Description: Updates value to 98
+* reverse_array - prints to int
+* Description: prints reverse of an array
+*@a: the value it receives
 *@n: the value it receives
-* void reset_to_98(int *n)
+*void reverse_array(int *a, int n)
 */
 #include "main.h"
+<<<<<<< HEAD
 // Iterative C program to reverse an array
 #include<stdio.h>
 #include<stdlib.h>
@@ -49,4 +51,20 @@ int main(void)
     reverse_array(a, sizeof(a) / sizeof(int));
 
     return (0);
+=======
+void reverse_array(int *a, int n)
+{
+int *left = a;
+int *right;
+right = &a[n - 1];
+left = a;
+while(left < right)
+{
+*left ^= *right;
+*right   ^= *left;
+*left ^= *right;
+left++;
+right--;
+}
+>>>>>>> bb8876aedeb1d5248284e247a3370a9dba4169d1
 }
