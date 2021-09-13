@@ -1,12 +1,12 @@
 /**
-* _memset - Fills the first @n bytes of the memory area
+* _strchr - Fills the first @n bytes of the memory area
 *          pointed to by @s with the constant byte @b.
 * Description: Prints to string
 *@s: the value it receives
-*@b: the value it receives
-*@n: the value it receives
-* char *_memset(char *s, char b, unsigned int n)
-* Returns a pointer to the memory area s
+*@c: the value it receives
+* char *_strchr(char *s, char c)
+* Return: Null if no char is located, else,
+* return first occurance of character c is a string s
 */
 #include "main.h"
 #include <stdio.h>
