@@ -14,5 +14,5 @@
 #include <string.h>
 char *_memset(char *s, char b, unsigned int n)
 {
-memset(s, '\0', sizeof(s));
+_memset(s, '\0', sizeof(s));
 }
