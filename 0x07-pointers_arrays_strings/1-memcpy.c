@@ -1,25 +1,18 @@
-/**
-* _memcpy - copies @n bytes of the memory area
-*          pointed to by @s with the constant byte @b.
-* Description: Prints to string
-*@dest: the value it receives
-*@src: the value it receives
-*@n: the value it receives
-* char *_memcpy(char *dest, char *src, unsigned int n)
-* Return: dest
-*/
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+/**
+ * *_memcpy - copies memory area
+ * @dest: memory area
+ * @src: source
+ * @n: length of src
+ *
+ * Return: pointer to dest.
+ */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-char *d = (char *) dest;
-char *s = (char *) src;
-int i;
+unsigned int i;
 for (i = 0; i < n; i++)
 {
-*d++ = *s++;
+dest[i] = src[i];
 }
-return (dest);  
+return (dest);
 }
