@@ -14,6 +14,11 @@
 #include <string.h>
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-strcpy(dest, " ");
-_memcpy(dest, src, strlen(src) + 1);
+char* d = (char*) dest;
+char* s = (char*) src;
+for (int i=0; i<n; i++) 
+{
+*d++ = *s++;
+}
+return (dest);
 }
