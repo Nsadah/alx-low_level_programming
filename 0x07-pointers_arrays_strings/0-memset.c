@@ -6,7 +6,7 @@
 *@b: the value it receives
 *@n: the value it receives
 * char *_memset(char *s, char b, unsigned int n)
-* Returns a pointer to the memory area s
+* Return: Always (Success)
 */
 #include "main.h"
 #include <stdio.h>
@@ -14,5 +14,10 @@
 #include <string.h>
 char *_memset(char *s, char b, unsigned int n)
 {
-_memset(s, '\0', sizeof(s));
+unsigned int index;
+char *memory = s;
+char value = b;
+for (index = 0; index < n; index++)
+memory[index] = value;
+return (memory);
 }
