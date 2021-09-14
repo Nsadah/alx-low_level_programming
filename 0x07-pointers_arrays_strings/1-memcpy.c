@@ -20,4 +20,5 @@ for (int i=0; i<n; i++)
 {
 *d++ = *s++;
 }
+return (dest);
 }
