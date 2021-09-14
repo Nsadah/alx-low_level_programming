@@ -6,7 +6,7 @@
 *@b: the value it receives
 *@n: the value it receives
 * char *_memset(char *s, char b, unsigned int n)
-* Returns a pointer to the memory area s
+* Return: Always (Success)
 */
 #include "main.h"
 #include <stdio.h>
