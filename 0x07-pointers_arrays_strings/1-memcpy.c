@@ -18,7 +18,8 @@ char *d = (char *) dest;
 char *s = (char *) src;
 int i;
 for (i = 0; i < n; i++)
-{*d++ = *s++;
-return (dest);
+{
+*d++ = *s++;
 }
+return (dest);  
 }
