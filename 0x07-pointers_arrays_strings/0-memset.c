@@ -19,5 +19,5 @@ char *memory = s;
 char value = b;
 for (index = 0; index < n; index++)
 memory[index] = value;
- return (memory);
+return (memory);
 }
