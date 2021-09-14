@@ -8,6 +8,7 @@
 * char *_memcpy(char *dest, char *src, unsigned int n)
 * Return: dest
 */
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
