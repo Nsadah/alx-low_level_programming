@@ -8,8 +8,7 @@
 #include <string.h>
 void _print_rev_recursion(char *s)
 {
-char rev;
-int i, j, len = 0;
+int i, len = 0;
 len = strlen(s);
 for (i = len - 1; i >= 0; i--)
 {
