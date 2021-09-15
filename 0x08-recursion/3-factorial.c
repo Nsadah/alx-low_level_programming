@@ -7,7 +7,8 @@
 #include <stdio.h>
 int factorial(int n)
 {
-int i, f = 1;
+int i;
+int f = 1;
 f = f *i;
 if (n < 0)
 {
