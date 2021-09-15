@@ -4,6 +4,7 @@
 *@n: the value it receives
 * Return: Always (Success)
 */
+#include "main.h"
 #include <stdio.h>
 int factorial(int n)
 {
