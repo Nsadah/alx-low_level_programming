@@ -10,7 +10,13 @@ int indx1, indx2;
 for (indx1 = 0; a[indx1][7]; indx1++)
 {
 for (indx2 = 0; indx2 < 8; indx2++)
+<<<<<<< HEAD
 putchar(a[indx1][indx2]);
+=======
+{
+putchar(a[indx1][indx2]);
+}
+>>>>>>> b12036cd3ed5c2ccaf029c4111c502480aa34350
 putchar('\n');
 }
 }
