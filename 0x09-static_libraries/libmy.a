@@ -1,0 +1,95 @@
+/*
+* _islower - checks is a character lowercase
+*@c: the integer value it receives
+*
+*_isalpha - checks is a character lowercase
+* _abs - prints absolute value
+* @n: the integer value it receives
+* _isupper - prints alphabet
+* _isdigit - prints digits
+* _strlen - Prints length of string
+* @s: the value it receives
+* _puts - prints to string
+* _strcpy - prints to string
+* @dest: the value it receives.
+* @ src: the value it receives
+* _atoi - prints to string
+* _strcat - prints to string
+* _strncat - prints to string
+* _strncat - prints to string
+* _strncpy - prints to string
+* _strcmp - prints to string
+* @s1: the value it receives
+* @s2: the value it receives
+* _memset - prints to string
+* _memcpy - prints to string
+* _strchr - prints to string
+* _strchr - prints to string
+* _strpbrk - prints to string
+* _strstr - prints to string
+*/
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int _putchar(char c)
+{
+}
+
+int _islower(int c)
+{
+}
+int _isalpha(int c)
+{
+}
+int _abs(int n)
+{
+}
+int _isupper(int c)
+{
+}
+int _isdigit(int c)
+{
+}
+int _strlen(char *s)
+{
+}
+void _puts(char *s)
+{
+}
+char *_strcpy(char *dest, char *src)
+{
+}
+int _atoi(char *s)
+{
+}
+char *_strcat(char *dest, char *src)
+{
+}
+char *_strncat(char *dest, char *src, int n)
+{
+}
+char *_strncpy(char *dest, char *src, int n)
+{
+}
+int _strcmp(char *s1, char *s2)
+{
+}
+char *_memset(char *s, char b, unsigned int n)
+{
+}
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+}
+char *_strchr(char *s, char c)
+{
+}
+unsigned int _strspn(char *s, char *accept)
+{
+}
+char *_strpbrk(char *s, char *accept)
+{
+}
+char *_strstr(char *haystack, char *needle)
+{
+}
