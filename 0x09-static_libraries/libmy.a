@@ -53,9 +53,21 @@ int _isdigit(int c)
 }
 int _strlen(char *s)
 {
+unsigned int count = 0;
+while (*s != '\0')
+{
+count++;
+s++;
+}
+return (count);
 }
 void _puts(char *s)
 {
+while (*str != '\0')
+{
+printf("%c", *str++);
+}
+printf("\n");
 }
 char *_strcpy(char *dest, char *src)
 {
