@@ -11,21 +11,18 @@
 void print_rev(char *s)
 {
 char rev[10000];
-	int i;
-	int j;
-	int count = 0;
+int i;
+int j;
+int count = 0;
 while (s[count] != '\0')
-  {
-    count++;
-  }
-  j = count - 1;
-
-  //reversing the string by swapping
-  for (i = 0; i < count; i++)
-  {
-    rev[i] = s[j];
-    j--;
-  }
+{
+count++;
+}
+j = count - 1;
+for (i = 0; i < count; i++)
+{
+rev[i] = s[j];
+j--;
+}
 printf("%s", rev);
-
 }
