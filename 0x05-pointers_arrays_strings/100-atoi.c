@@ -1,7 +1,7 @@
 /**
 * _atoi - prints to string
 * Description: Prints to string
-*@src: the value it receives
+*@s: the value it receives
 * int _atoi(char *s)
 * Return: Always (Success)
 */
