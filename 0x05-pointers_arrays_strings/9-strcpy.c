@@ -1,16 +1,21 @@
 /**
-* _puts - prints to string
-* Description: Prints to  string
-* @str: the value it receives
-* void _puts(char *str)
-* Return: Always (Success)
-*/
-#include <stdio.h>
-#include "main.h"
-void _puts(char *str)
+ * *_strcpy - See description
+ * @dest: char type string
+ * @src: char type string
+ * Description: Copy the string pointed to by pointer `src` to
+ * the buffer pointed to by `dest`
+ * Return: Pointer to `dest`
+ */
+
+char *_strcpy(char *dest, char *src)
 {
-char s;
-s = *str;
-while(*str != '\0')
-printf("%c",*str++);
+	int i;
+
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	dest[i] = '\0';
+
+	return (dest);
 }
