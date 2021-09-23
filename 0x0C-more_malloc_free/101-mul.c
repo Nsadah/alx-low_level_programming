@@ -23,8 +23,12 @@ for (num2 = 0; argv[num1][num2] != '\0'; num2++)
 if (argv[num1][num2] > 57 || argv[num1][num2] < 48)
 {
 printf("Error\n");
+<<<<<<< HEAD
 exit(98);
 }
+=======
+exit(98); }
+>>>>>>> 05964c14b0b24492b8c7642ca992fca263186ebd
 }
 }
 mul = atol(argv[1]) *  atol(argv[2]);
