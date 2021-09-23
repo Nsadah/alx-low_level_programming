@@ -17,21 +17,15 @@ unsigned int size;
 len = 0;
 empt = "";
 if (s1 == NULL)
-{
 s1 = empt;
-}
 if (s2 == NULL)
-{
 s2 = empt;
-}
 while (s1[len] != '\0')
 len++;
 size = (len + n) * sizeof(*nstr);
 nstr = malloc(size + 1);
 if (nstr == NULL)
-{
 return (NULL);
-}
 i = 0;
 while (i < size && s1[i] != '\0')
 {
