@@ -20,7 +20,8 @@ for (num1 = 1; num1 < argc; num1++)
 for (num2 = 0; argv[num1][num2] != '\0'; num2++)
 {
 if (argv[num1][num2] > 57 || argv[num1][num2] < 48)
-{  printf("Error\n");
+{
+printf("Error\n");
 exit(98); }
 }
 }
