@@ -6,7 +6,7 @@
  *
  *Return: i value
  */
-list_t *add_node_end(list_t **head, const char *str)
+int _strlen(const char *s)
 {
 	int i;
 
