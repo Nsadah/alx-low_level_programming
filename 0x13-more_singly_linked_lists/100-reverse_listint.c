@@ -1,58 +1,47 @@
 #include "lists.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
- * find_listint_loop_pl - finds a loop in a linked list
+ * reverse_recur - recursively reverses a listint list
  *
- * @head: linked list to search
+ * @first: node to reverse
+ * @second: node after node to reverse
  *
- * Return: address of node where loop starts/returns, NULL if no loop
+ * Return: void
  */
-listint_t *find_listint_loop_pl(listint_t *head)
+listint_t *reverse_recur(listint_t *first, listint_t *second)
 {
-	listint_t *ptr, *end;
+	listint_t *ptr, *prev = NULL;
 
-	if (head == NULL)
+	ptr = first;
+	while (ptr->next != second)
+	{
+		prev = ptr;
+		ptr = ptr->next;
+	}
+
+	if (prev != NULL)
+		prev->next = first;
+	second = first->next;
+	first->next = ptr->next;
+	if (first != ptr && second != first)
+		second = reverse_recur(second, first);
+	ptr->next = second;
+	return (ptr);
+}
+
+/**
+ * reverse_listint - reverses a listint list
+ *
+ * @head: list to reverse
+ *
+ * Return: new head of list
+ */
+listint_t *reverse_listint(listint_t **head)
+{
+	if (head == NULL || *head == NULL)
 		return (NULL);
 
-	for (end = head->next; end != NULL; end = end->next)
-	{
-		if (end == end->next)
-			return (end);
-		for (ptr = head; ptr != end; ptr = ptr->next)
-			if (ptr == end->next)
-				return (end->next);
-	}
-	return (NULL);
+	*head = reverse_recur(*head, NULL);
+	return (*head);
 }
-
-/**
- * print_listint_safe - prints a linked list, even if it
- * has a loop
- *
- * @head: head of list to print
- *
- * Return: number of nodes printed
- */
-size_t print_listint_safe(const listint_t *head)
-{
-	size_t len = 0;
-	int loop;
-	listint_t *loopnode;
-
-	loopnode = find_listint_loop_pl((listint_t *) head);
-
-	for (len = 0, loop = 1; (head != loopnode || loop) && head != NULL; len++)
-	{
-		printf("[%p] %d\n", (void *) head, head->n);
-		if (head == loopnode)
-			loop = 0;
-		head = head->next;
-	}
-
-	if (loopnode != NULL)
-		printf("-> [%p] %d\n", (void *) head, head->n);
-	return (len);
-}
-©
