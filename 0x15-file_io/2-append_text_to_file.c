@@ -2,45 +2,39 @@
 #include "main.h"
 
 /**
-  * append_text_to_file - ...
-  * @filename: ...
-  * @text_content: ...
-  *
-  * Return: ...
-  */
-int append_text_to_file(const char *filename, char *text_content)
+ * read_textfile - Entry Point
+ * @filename: file name
+ * @letters: size
+ * Return: 0
+ */
+ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fd;
+	int file, rd, wr;
+	char *buf;
 
-	if (!filename)
-		return (-1);
+	if (filename == NULL)
+		return (0);
 
-	fd = open(filename, O_WRONLY | O_APPEND);
-	if (fd == -1)
-		return (-1);
+	file = open(filename, O_RDONLY);
 
-	if (text_content)
-	{
-		if (write(fd, text_content, _strlen(text_content)) == -1)
-			return (-1);
-	}
+	if (file == -1)
+		return (0);
 
-	close(fd);
-	return (1);
-}
+	buf = malloc(sizeof(char) * letters + 1);
+	if (buf == NULL)
+		return (0);
 
-/**
-  * _strlen - Returns the length of a string
-  * @s: String to count
-  *
-  * Return: String length
-  */
-int _strlen(char *s)
-{
-	int c = 0;
+	rd = read(file, buf, letters);
+	if (rd == -1)
+		return (0);
 
-	while (s[c])
-		c++;
+	buf[letters] = '\0';
 
-	return (c);
+	wr = write(1, buf, rd);
+	if (wr == -1)
+		return (0);
+
+	close(file);
+	free(buf);
+	return (wr);
 }
