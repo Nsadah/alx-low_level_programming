@@ -1,56 +1,52 @@
 #include "search_algos.h"
 
-void print_array(int *array, size_t i, size_t size);
-
 /**
- * binary_search - binary search algorithm in a string
- * @array: list of elements
- * @size: size of the list
- * @value: target to search
- * Return: element index on success (-1) on fail
+ * print_array - Prints an array between two boundaries
+ * @array: pointer to the first element of the array to print
+ * @min: left boundary
+ * @max: right boundary
+ *
+ * Return: No Return
  */
-int binary_search(int *array, size_t size, int value)
+void print_array(int *array, int min, int max)
 {
-	size_t low = 0, high = size - 1, half = 0;
+	int i;
 
-	if (array == NULL || value == 0)
-		return (-1);
+	for (i = min; i < max; i++)
+		printf("%d, ", array[i]);
 
-	print_array(array, low, size);
-	while (low < high)
-	{
-		half = (low + high) / 2;
-		if (array[half] < value)
-		{
-			low = half + 1;
-			print_array(array, low, high + 1);
-		}
-		else if (array[half] > value)
-		{
-			high = half - 1;
-			print_array(array, low, high + 1);
-		}
-		else
-			return (array[half]);
-	}
-	return (-1);
+	printf("%d\n", array[i]);
 }
 
 /**
- * print_array - print all elements in an array
- * @array: list of elements
- * @i: index to init
- * @size: size of the array
+ * binary_search - searches for a value in a sorted array of integers using the
+ * Binary search algorithm
+ * @array: pointer to the first element of the array to search in
+ * @size:  number of elements in array
+ * @value: value to search for
+ *
+ * Return: Index where value is located or -1
  */
-void print_array(int *array, size_t i, size_t size)
+int binary_search(int *array, size_t size, int value)
 {
-	printf("Searching in array: ");
-	while (i < size)
+	int min, max, mid;
+
+	if (!array)
+		return (-1);
+
+	min = 0, max = size - 1;
+	while (min <= max)
 	{
-		if (i + 1 == size)
-			printf("%d ", array[i]);
+		printf("Searching in array: ");
+		print_array(array, min, max);
+		mid = (min + max) / 2;
+		if (array[mid] == value)
+			return (mid);
+		if (array[mid] < value)
+			min = mid + 1;
 		else
-			printf("%d, ", array[i]);
-		i++;
-	} printf("\n");
+			max = mid - 1;
+	}
+
+	return (-1);
 }
